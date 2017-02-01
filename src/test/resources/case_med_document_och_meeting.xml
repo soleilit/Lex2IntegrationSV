@@ -1,0 +1,57 @@
+<lex xmlns="http://lex.wmdata.com/schemas/LeXml.xsd">
+        <information>
+            <case id="{FCFD-BE01-075B-A395-CD15-A0FF}" title="KS/2008:8" status="Preliminary">
+                <type id="{FCFD-B862-075B-D7CF-CD15-A0FE}" name="126 Buller"/>
+                <description>Klagomål på buller</description>
+                <diary id="{FC9A-B914-075B-E884-CD15-A0FE}" name="Kommunstyrelsen"/>
+                <subjectAreas>
+                    <subjectArea name="Bygga &amp; bo"/>
+                </subjectAreas>
+                <finalizedSign date="2008-01-20"/>
+                <createdSign date="2008-01-20"/>
+                <documents>
+                    <document id="{FCFE-BCEF-075B-5F4B-CD15-A103}" index="15" orgin="OwnProduction" date="2008-01-29"
+                              author="Johan Bergman" status="Idle">
+                        <description>Rapport om rondeller</description>
+                        <type id="{FCFE-9267-075B-FFBA-CD15-A0FE}" name="Tjänsteskrivelse"/>
+                        <diary id="{FC9A-B914-075B-E884-CD15-A0FE}" name="Kommunstyrelsen"/>
+                        <owners>
+                            <owner id="{FCFD-BE01-075B-A395-CD15-A0FF}" type="Case" name="KS/2008:8"/>
+                            <owner id="{FCFC-AB03-075B-FBB1-CD15-A0FE}" type="Meeting" name="KS/2008-01-22"/>
+                            <owner id="{FCF6-B248-075B-DFD5-CD15-A0FE}" type="MeetingTopic"
+                                   name="§ 6 Utredning om bullernivåer i staden"/>
+                        </owners>
+                        <file format="rtf" size="207317" sizeType="B"/>
+                        <createdSign date="2008-01-29" by="johan bergman"/>
+                        <modifiedSign date="2008-02-19" by="johan bergman"/>
+                        <finalizedSign date="2008-01-29"/>
+                    </document>
+                </documents>
+                <meetings>
+                    <meeting id="{FCFC-AB03-075B-FBB1-CD15-A0FE}" title="KS/2008-01-22" status="Active"
+                             unit="Kommunstyrelsen" date="2008-01-22" time="09:00" location="Stora salen">
+                        <type id="{FCFC-8F01-075B-FFFE-CD15-A0FE}" name="Ordinarie"/>
+                        <modifiedSign date="2008-01-29" by="anna-lena amundson"/>
+                        <createdSign date="2008-01-29" by="johan bergman"/>
+                        <topics>
+                            <topic id="{FCF6-B248-075B-DFD5-CD15-A0FE}" title="Utredning om bullernivåer i staden"
+                                   number="§ 10"/>
+                        </topics>
+                    </meeting>
+                </meetings>
+                <decisions>
+                    <decision id="{FCF4-BD6A-075B-BC3C-CD15-A0FF}" title="KS §/2008:10" series="KS §" year="2008"
+                              number="10" date="2008-01-22">
+                        <decisionText></decisionText>
+                        <owners>
+                            <topics>
+                                <topic id="{FCF6-B248-075B-DFD5-CD15-A0FE}" title="Utredning om bullernivåer i staden"
+                                       number="§ 10"/>
+                            </topics>
+                        </owners>
+                        <type name="-"/>
+                    </decision>
+                </decisions>
+            </case>
+        </information>
+    </lex>

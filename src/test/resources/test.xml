@@ -1,0 +1,78 @@
+ <string xmlns="http://tempuri.org/"><lex xmlns="http://lex.wmdata.com/schemas/LeXml.xsd"><infoSet>
+     <document id="{FCFE-BEB4-075B-5F3A-CD15-A103}">
+         <description>Registrator LEX</description>
+         <subjectAreas>
+             <subjectArea name="Bygga &amp; bo / Byggnadsnämnden"/>
+         </subjectAreas>
+         <owners>
+             <owner id="{FCFD-BBD7-075B-A376-CD15-A0FF}" type="Case" name="BN/2008:6"/>
+         </owners>
+         <type name="Anbud"/>
+         <file format="doc" size="1531392" sizeType="B"/>
+         <finalizedSign date="2008-03-13"/>
+     </document>
+     <document id="{FCFE-BEB4-075B-5F3A-CD15-A103}">
+         <modifiedSign date="2008-03-13" by="christer joelsson"/>
+     </document>
+     <document id="{FCFE-BE0D-075B-61C3-CD15-A103}">
+         <description>Sekretessbelagt</description>
+         <subjectAreas>
+             <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+         </subjectAreas>
+         <owners>
+             <owner id="{FCFD-C11C-075B-A465-CD15-A0FF}" type="Case" name="KS/2006:2"/>
+         </owners>
+         <type name="Beslut"/>
+         <secrecy/>
+         <finalizedSign date="2006-01-25"/>
+     </document>
+     <document id="{FCFE-BE0D-075B-61C3-CD15-A103}">
+         <modifiedSign date="2006-01-25" by="pia zannin"/>
+     </document>
+     <document id="{FCFE-BE45-075B-61C2-CD15-A103}">
+         <description>Sekretessbelagt</description>
+         <subjectAreas>
+             <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+         </subjectAreas>
+         <owners>
+             <owner id="{FCFD-C11C-075B-A465-CD15-A0FF}" type="Case" name="KS/2006:2"/>
+         </owners>
+         <type name="Beslut"/>
+         <file format="TIF" size="1490964" sizeType="B" restriction="Secrecy"/>
+         <secrecy/>
+         <finalizedSign date="2006-01-25"/>
+     </document>
+     <document id="{FCFE-BE45-075B-61C2-CD15-A103}">
+         <modifiedSign date="2006-01-25" by="pia zannin"/>
+     </document>
+     <document id="{FCFE-BCEF-075B-5F4B-CD15-A103}">
+         <description>Rapport om rondeller</description>
+         <subjectAreas>
+             <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+         </subjectAreas>
+         <owners>
+             <owner id="{FCFD-BE01-075B-A395-CD15-A0FF}" type="Case" name="KS/2008:8"/>
+         </owners>
+         <type name="Tjänsteskrivelse"/>
+         <file format="rtf" size="207317" sizeType="B"/>
+     </document>
+     <document id="{FCFE-BCEF-075B-5F4B-CD15-A103}">
+         <finalizedSign date="2008-01-29"/>
+         <modifiedSign date="2008-02-19" by="johan bergman"/>
+     </document>
+     <document id="{FCFE-BD22-075B-5F4A-CD15-A103}">
+         <description>Förslag angående rondellhundar</description>
+         <subjectAreas>
+             <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+         </subjectAreas>
+         <owners>
+             <owner id="{FCFD-BBAB-075B-A37F-CD15-A0FF}" type="Case" name="KS/2008:29"/>
+         </owners>
+         <type name="Tjänsteskrivelse"/>
+         <file format="rtf" size="207441" sizeType="B"/>
+         <finalizedSign date="2008-02-19"/>
+     </document>
+     <document id="{FCFE-BD22-075B-5F4A-CD15-A103}">
+         <modifiedSign date="2008-02-19" by="johan bergman"/>
+     </document>
+ </infoSet></lex></string>

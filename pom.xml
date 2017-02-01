@@ -1,0 +1,266 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>se.solarplexusit.lex</groupId>
+    <artifactId>lexsearch-portlet</artifactId>
+    <packaging>war</packaging>
+    <version>1.0</version>
+    <name>Lexsearch</name>
+    <url>http://maven.apache.org</url>
+    <properties>
+        <maven.compile.src>1.6</maven.compile.src>
+        <org.springframework-version>3.2.3.RELEASE</org.springframework-version> <!-- 2013-05-21 -->
+        <org.springframework.ws-version>2.1.4.RELEASE</org.springframework.ws-version> <!-- 2013- -->
+    </properties>
+
+    <build>
+        <finalName>lex2search</finalName>
+
+        <plugins>
+            <!-- JUnit4 Support -->
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.17</version>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <!-- best lock down version of the plugin too -->
+                <configuration>
+                    <source>${maven.compile.src}</source>
+                    <target>${maven.compile.src}</target>
+                </configuration>
+            </plugin>
+            
+            <!-- tag::wsdl[] -->
+            <plugin>
+                <groupId>org.jvnet.jaxb2.maven2</groupId>
+                <artifactId>maven-jaxb2-plugin</artifactId>
+                <version>0.9.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <schemaLanguage>WSDL</schemaLanguage>
+                    <generatePackage>se.solarplexusit.lexportlet.wsdl</generatePackage>
+                    <forceRegenerate>true</forceRegenerate>
+                    <schemas>
+                        <schema>
+                            <url>http://194.68.82.109/lex2Web/services/Publish.svc?wsdl</url>
+                            <!--url>http://ls64-korapp.lex.gbg.solarplexusit.se/KorintoTrunk/services/Publish.svc?wsdl</url-->
+                        </schema>
+                    </schemas>
+                </configuration>
+            </plugin>
+            <!-- end::wsdl[] -->
+            
+        </plugins>
+    </build>
+
+    <dependencies>
+
+<!-- 
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+ -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.4</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sf.ehcache</groupId>
+            <artifactId>ehcache</artifactId>
+            <version>2.8.1</version>
+            <exclusions>
+            	<exclusion>
+       				<groupId>org.slf4j</groupId>
+    				<artifactId>slf4j-api</artifactId>
+  				</exclusion>
+			</exclusions>            
+		</dependency>
+
+        <!-- Portlet and web Dependencies -->
+        <!-- dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+            <scope>provided</scope>
+        </dependency-->
+        
+        <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+			<dependency>
+			    <groupId>javax.servlet</groupId>
+			    <artifactId>javax.servlet-api</artifactId>
+			    <version>3.0.1</version>
+			    <scope>provided</scope>
+			</dependency>
+        
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${org.springframework-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc-portlet</artifactId>
+            <version>${org.springframework-version}</version>
+        </dependency>
+
+        <!-- dependency>
+            <groupId>portlet-api</groupId>
+            <artifactId>portlet-api</artifactId>
+            <version>1.0</version>
+            <scope>provided</scope>
+        </dependency-->
+
+<dependency>
+    <groupId>javax.portlet</groupId>
+    <artifactId>portlet-api</artifactId>
+    <version>2.0</version>
+    <scope>provided</scope>
+</dependency>
+
+
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>taglibs</groupId>
+            <artifactId>standard</artifactId>
+            <version>1.1.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>displaytag</groupId>
+            <artifactId>displaytag-portlet</artifactId>
+            <version>1.2</version>
+
+            <exclusions>
+				    <exclusion>
+				    <groupId>commons-collections</groupId>
+				    <artifactId>commons-collections</artifactId>
+				    </exclusion>
+				</exclusions>
+
+        </dependency>
+        
+        <!-- https://mvnrepository.com/artifact/commons-collections/commons-collections -->
+			<dependency>
+			    <groupId>commons-collections</groupId>
+			    <artifactId>commons-collections</artifactId>
+			    <version>3.2.2</version>
+			</dependency>
+        
+
+<!-- dependencies från displaytag -->
+<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+<!-- dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-log4j12</artifactId>
+    <version>1.4.2</version>
+</dependency-->
+<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+<!-- dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>1.2.13</version>
+</dependency-->
+
+        <!-- dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.5.0</version>
+        </dependency--> 
+
+ 
+        <!-- WebService Dependencies -->
+        <dependency>
+            <groupId>org.springframework.ws</groupId>
+            <artifactId>spring-ws-core</artifactId>
+            <version>${org.springframework.ws-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.xml.messaging.saaj</groupId>
+            <artifactId>saaj-impl</artifactId>
+            <version>1.3.23</version>
+        </dependency>
+
+        <!-- [Optional] Castor for O/X mapping -->
+        <!-- 
+        <dependency>
+            <groupId>org.codehaus.castor</groupId>
+            <artifactId>castor-xml</artifactId>
+            <version>1.3.3</version> -->
+            <!--
+            <exclusions>
+                <exclusion>
+                    <groupId>xerces</groupId>
+                    <artifactId>xerces</artifactId>
+                </exclusion>
+            </exclusions>
+            -->
+            <!-- 
+        </dependency>
+		<dependency>
+			<groupId>xerces</groupId>
+			<artifactId>xercesImpl</artifactId>
+			<version>2.8.1</version>
+		</dependency>
+		         -->
+        <!-- Explicit XML jars to avoid problems -->
+        <!-- 
+        <dependency>
+            <groupId>xalan</groupId>
+            <artifactId>xalan</artifactId>
+            <version>2.7.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.xml.parsers</groupId>
+            <artifactId>jaxp-api</artifactId>
+            <version>1.4.5</version>
+        </dependency>
+  -->
+
+		<dependency>
+			<groupId>xerces</groupId>
+			<artifactId>xercesImpl</artifactId>
+			<version>2.8.1</version>
+		</dependency>
+  
+  		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+			<version>2.2.11</version>
+		</dependency>
+  
+		<dependency>
+			<groupId>senselogic.sitevision.public-api</groupId>    
+			<artifactId>sitevision-public-api</artifactId>
+			<version>4.2</version>
+			<scope>provided</scope>
+		</dependency>
+
+  
+	</dependencies>
+ </project>

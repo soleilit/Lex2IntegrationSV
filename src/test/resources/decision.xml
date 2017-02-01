@@ -1,0 +1,22 @@
+<lex xmlns="http://lex.wmdata.com/schemas/LeXml.xsd">
+    <information>
+    <decision id="{FCF4-BD6A-075B-BC3C-CD15-A0FF}" title="KS §/2008:10" series="KS §" year="2008" number="10"
+              date="2008-01-22" unit="Kommunstyrelsen">
+        <description>Utredning om bullernivåer i staden</description>
+    </decision>
+    <decision id="{FCF4-BD6A-075B-BC3C-CD15-A0FF}" title="KS §/2008:10" series="KS §" year="2008" number="10"
+              date="2008-01-22" unit="Kommunstyrelsen">
+        <decisionText> &lt;BR&gt; &lt;B&gt;&lt;FONT FACE="Arial"&gt;&lt;FONT SIZE=+0&gt;&lt;A NAME="1-1"&gt;S&lt;/A&gt;ammanfattning
+            &lt;/FONT&gt;&lt;/FONT&gt;&lt;/B&gt;&lt;BR&gt; &lt;FONT FACE="Times New Roman"&gt;&lt;FONT SIZE=+0&gt;Det
+            bullrar väldigt mycket…&lt;/FONT&gt;&lt;/FONT&gt;&lt;BR&gt; &lt;BR&gt; &lt;B&gt;&lt;FONT FACE="Arial"&gt;&lt;FONT
+            SIZE=+0&gt;&lt;A NAME="1-2"&gt;B&lt;/A&gt;eslut&lt;/FONT&gt;&lt;/FONT&gt;&lt;/B&gt;&lt;BR&gt; &lt;BR&gt;
+            &lt;BR&gt; &lt;BR&gt; </decisionText>
+        <owners></owners>
+        <owners>
+            <topics>
+                <topic id="{FCF6-B248-075B-DFD5-CD15-A0FE}" title="Utredning om bullernivåer i staden" number="§ 10"/>
+            </topics>
+        </owners>
+        <type name="-"/>
+    </decision>
+</information></lex>

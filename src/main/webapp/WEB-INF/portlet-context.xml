@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.2.xsd">
+		
+    <context:property-placeholder location="/WEB-INF/filesystem.properties"/>
+
+    <bean id="searchAdviceDao" class="se.solarplexusit.lexportlet.dao.impl.FileSystemSearchAdviceDao">
+        <constructor-arg value="${filesystem.config.dir}"/>
+        <constructor-arg ref="unMarshallers"/>
+    </bean>
+    <bean id="searchController" class="se.solarplexusit.lexportlet.portlet.SearchController">
+        <constructor-arg ref="lexService"/>
+        <constructor-arg ref="searchAdviceDao"/>
+        <constructor-arg ref="messageSource"/>
+    </bean>
+    <bean id="showCaseController" class="se.solarplexusit.lexportlet.portlet.ShowCaseController">
+        <constructor-arg ref="lexService"/>
+    </bean>
+    <bean id="showDocumentController" class="se.solarplexusit.lexportlet.portlet.ShowDocumentController">
+        <constructor-arg ref="lexService"/>
+    </bean>
+    <bean id="showMeetingController" class="se.solarplexusit.lexportlet.portlet.ShowMeetingController">
+        <constructor-arg ref="lexService"/>
+    </bean>
+    <bean id="showDecisionController" class="se.solarplexusit.lexportlet.portlet.ShowDecisionController">
+        <constructor-arg ref="lexService"/>
+    </bean>
+    <bean id="editSearchAdviceController" class="se.solarplexusit.lexportlet.portlet.EditSearchAdviceController">
+        <constructor-arg ref="searchAdviceDao"/>
+    </bean>
+
+    <bean id="searchCriteriaValidator"
+          class="se.solarplexusit.lexportlet.validation.SearchCriteriaValidator"/>
+
+    <bean id="portletModeParameterHandlerMapping" class="org.springframework.web.portlet.handler.PortletModeParameterHandlerMapping">
+        <property name="portletModeParameterMap">
+            <map>
+                <entry key="edit">
+                    <map>
+                        <entry key="editSearchAdvice" value-ref="editSearchAdviceController"/>
+                        <!-- <entry key="editSettings" value-ref="editSettingsController"/> -->
+                    </map>
+                </entry>                
+            </map>
+        </property>
+    </bean>
+
+    <bean id="portletModeHandlerMapping" class="org.springframework.web.portlet.handler.PortletModeHandlerMapping">
+        <property name="portletModeMap">
+            <map>
+                <entry key="edit" value-ref="editSearchAdviceController"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="parameterHandlerMapping" class="org.springframework.web.portlet.handler.ParameterHandlerMapping">
+        <property name="parameterMap">
+            <map>
+                <entry key="showCase" value-ref="showCaseController"/>
+                <entry key="showDocument" value-ref="showDocumentController"/>
+                <entry key="showMeeting" value-ref="showMeetingController"/>
+                <entry key="showDecision" value-ref="showDecisionController"/>
+            </map>
+        </property>
+        <property name="defaultHandler" ref="searchController"/>
+    </bean>
+</beans>

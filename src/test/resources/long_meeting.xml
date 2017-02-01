@@ -1,0 +1,46 @@
+<lex xmlns="http://lex.wmdata.com/schemas/LeXml.xsd">
+    <information></information>
+    <information>
+        <meeting id="{FCFC-AB03-075B-FBB1-CD15-A0FE}" title="KS/2008-01-22" status="Active" unit="Kommunstyrelsen"
+                 date="2008-01-22" time="09:00" location="Stora salen">
+            <type id="{FCFC-8F01-075B-FFFE-CD15-A0FE}" name="Ordinarie"/>
+            <modifiedSign date="2008-01-29" by="anna-lena amundson"/>
+            <createdSign date="2008-01-29" by="johan bergman"/>
+            <topics>
+                <topic id="{FCF6-B27B-075B-DFD4-CD15-A0FE}" number="§4">
+                    <sortOrder>3</sortOrder>
+                    <title>Sekretessbelagd</title>
+                    <documents>
+                        <document id="{FCFE-C0A7-075B-5F6B-CD15-A103}" index="14" orgin="OwnProduction"
+                                  date="2008-01-29" author="Anna-Lena Amundson" status="Idle">
+                            <description>Sekretessbelagd</description>
+                            <type id="{FCFE-9267-075B-FFBA-CD15-A0FE}" name="Tjänsteskrivelse"/>
+                            <diary id="{FC9A-B914-075B-E884-CD15-A0FE}" name="Kommunstyrelsen"/>
+                            <owners>
+                                <owner id="{FCFD-BDC8-075B-A396-CD15-A0FF}" type="Case" name="KS/2008:7"/>
+                                <owner id="{FCFC-AB03-075B-FBB1-CD15-A0FE}" type="Meeting" name="KS/2008-01-22"/>
+                                <owner id="{FCF6-B27B-075B-DFD4-CD15-A0FE}" type="MeetingTopic"
+                                       name="§ 3 Interpellation från Miljöpartiet"/>
+                            </owners>
+                            <createdSign date="2008-01-29" by="johan bergman"/>
+                            <modifiedSign date="2008-01-29" by="anna-lena amundson"/>
+                            <finalizedSign date="2008-01-29"/>
+                        </document>
+                    </documents>
+                    <cases>
+                        <case id="{FCFD-BDC8-075B-A396-CD15-A0FF}" title="KS/2008:7" status="Preliminary">
+                            <type id="{FCFD-B83C-075B-D88C-CD15-A0FE}" name="002 Interpellation"/>
+                            <description>Interpellation från Miljöpartiet</description>
+                            <diary id="{FC9A-B914-075B-E884-CD15-A0FE}" name="Kommunstyrelsen"/>
+                            <subjectAreas>
+                                <subjectArea name="Bygga &amp; bo"/>
+                            </subjectAreas>
+                            <finalizedSign date="2008-01-29"/>
+                            <createdSign date="2008-01-29"/>
+                        </case>
+                    </cases>
+                </topic>
+            </topics>
+        </meeting>
+    </information>
+</lex>

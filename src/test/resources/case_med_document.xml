@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+  <string xmlns="http://tempuri.org/">
+    <lex xmlns="http://lex.wmdata.com/schemas/LeXml.xsd"></lex>
+    <lex xmlns="http://lex.wmdata.com/schemas/LeXml.xsd">
+        <information>
+            <case id="{FCFD-BC03-075B-A3CF-CD15-A0FF}" title="BN/2006:55" status="Preliminary">
+                <type id="{FCFD-B791-075B-D88F-CD15-A0FE}" name="013 Synpunkt"/>
+                <description>Synpunkt, automatskapad 6</description>
+                <diary id="{FC9A-B9FB-075B-E877-CD15-A0FE}" name="Byggnadsnämnden"/>
+                <subjectAreas>
+                    <subjectArea name="Bygga &amp; bo"/>
+                </subjectAreas>
+                <createdSign date="2006-12-04"/>
+                <documents>
+                    <document id="{FCFE-BE17-075B-5FF9-CD15-A103}" index="65" orgin="File" date="2006-12-04"
+                              author="Christer Joelsson" status="Idle">
+                        <description>Webblankett synpunkt test6</description>
+                        <type id="{FCFE-997F-075B-FEBD-CD15-A0FE}" name="Synpunkt" colorCode="FFFF00"/>
+                        <diary id="{FC9A-B9FB-075B-E877-CD15-A0FE}" name="Byggnadsnämnden"/>
+                        <owners>
+                            <owner id="{FCFD-BC03-075B-A3CF-CD15-A0FF}" type="Case" name="BN/2006:55"/>
+                        </owners>
+                        <file format="xml" size="1833" sizeType="B"/>
+                        <createdSign date="2006-12-04" by="christer joelsson"/>
+                        <modifiedSign date="2006-12-04" by="christer joelsson"/>
+                        <finalizedSign date="2006-12-04"/>
+                    </document>
+                </documents>
+            </case>
+        </information>
+    </lex>
+</string>

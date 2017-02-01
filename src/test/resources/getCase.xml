@@ -1,0 +1,44 @@
+<lex xmlns="http://lex.wmdata.com/schemas/LeXml.xsd">
+<information>
+    <case id="{FCFD-BCFE-075B-A3AA-CD15-A0FF}" title="BN/2007:1" status="Preliminary">
+        <type id="{FCFD-B492-075B-D884-CD15-A0FE}" name="524 P-tillstånd" colorCode="FF80C0" />
+        <description>Boendeparkering, automatskapad</description>
+        <diary id="{FC9A-B9FB-075B-E877-CD15-A0FE}" name="Byggnadsnämnden" />
+        <subjectAreas>
+            <subjectArea name="Bygga &amp; bommmm" />
+        </subjectAreas>
+        <createdSign date="2007-01-10" />
+        <documents>
+            <document id="{FCFE-BD17-075B-5FA4-CD15-A103}" index="1" orgin="File" date="2007-01-10" author="sa" status="Idle">
+                <description>8.xml</description>
+                <type id="{FCFE-99B2-075B-FEBC-CD15-A0FE}" name="Boendeparkering" colorCode="FFFF"/>
+                    <diary id="{FC9A-B9FB-075B-E877-CD15-A0FE}" name="Byggnadsnämnden"/>
+                <owners>
+                    <owner id="{FCFD-BCFE-075B-A3AA-CD15-A0FF}" type="Case" name="BN/2007:1"/>
+                </owners>
+                <file format="xml" size="1525" sizeType="B"/>
+                <createdSign date="2007-01-10" by="sa"/>
+                <modifiedSign date="2007-01-10" by="sa"/>
+            </document>
+            <document id="{FCFE-BD17-075B-5FA4-CD15-A103}" index="1" orgin="File" date="2007-01-10" author="sa" status="Idle">
+                <finalizedSign date="2007-01-10"/>
+            </document>
+        </documents>
+    </case>
+</information>
+</lex>
+
+
+<!--
+String diary_name;          //diarium
+String subjectArea_name;    //ämnesområde
+String case_title;          //diarienummer
+String description;         //ärendemening
+String createdSign;         //skapad datum
+String security;            //sekretessgrund
+
+
+
+
+
+-->

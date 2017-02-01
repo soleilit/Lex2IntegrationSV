@@ -1,0 +1,71 @@
+/* Standard elements */
+body {
+    background-color:#ccc !important;
+}
+
+/* Top menu */
+#lex-edit-menu {
+    position:relative;
+    float:left;
+    width:100%;
+    padding:0;
+    margin:0;
+    list-style:none;
+    line-height:1em;
+}
+
+#lex-edit-menu li {
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+#lex-edit-menu a {
+    display:block;
+    color:#444;
+    text-decoration:none;
+    font-weight:bold;
+    background:#ddd;
+    margin:0;
+    padding:0.25em 1em;
+    border-left:1px solid #fff;
+    border-top:1px solid #fff;
+    border-right:1px solid #aaa;
+}
+
+#lex-edit-menu a:hover, #lex-edit-menu a:active, #lex-edit-menu a.lex-edit-menu-selected:link, #lex-edit-menu a.lex-edit-menu-selected:visited {
+    background:#bbb;
+}
+
+#lex-edit-menu a.lex-edit-menu-selected:link, #lex-edit-menu a.lex-edit-menu-selected:visited {
+    position:relative;
+    z-index:102;
+}
+
+/* Misc */
+#lex-edit-header {
+    font-weight:bold;
+}
+
+.lex-edit-container {
+    margin:1em 1em 1em 1em;
+}
+
+.lex-edit-fieldset {
+    margin:1em 0 1em;
+}
+
+.lex-edit-row {
+    display:block;
+    padding:0.2em;
+}
+
+.lex-search-tip-header {
+    color:#000;
+    font-weight:bold;
+}
+
+.lex-search-form-label {
+    display:block;
+    vertical-align:top;
+}

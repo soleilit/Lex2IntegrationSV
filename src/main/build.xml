@@ -1,0 +1,14 @@
+<project basedir=".">
+    <property name="sitevision.base.dir" location="c:/sitevision" />
+	
+    <target name="undeploy-lex" description="Delete war and exploded folder">
+        <delete dir="${sitevision.base.dir}/tomcat/webapps/lex2search" />
+        <delete file="${sitevision.base.dir}/tomcat/webapps/lex2search.war" />
+    </target>
+
+    <target name="deploy-lex" description="Copy lex war to deployment folder">
+        <copy todir="${sitevision.base.dir}/tomcat/webapps" file="../../target/lex2search.war" />
+    </target>
+
+    <target name="redeploy-lex" depends="undeploy-lex, deploy-lex" description="Redeploy lex"/>
+</project>

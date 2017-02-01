@@ -1,0 +1,69 @@
+<lex xmlns="http://lex.wmdata.com/schemas/LeXml.xsd">
+    <information></information>
+    <information>
+        <case id="{FCFD-BB09-075B-A446-CD15-A0FF}" title="BN/2006:2" status="Preliminary">
+            <type id="{FCFD-B3F5-075B-D8D1-CD15-A0FE}" name="720 Byggärenden"/>
+            <description>Bygglovsansökan Minken 4:5</description>
+            <diary id="{FC9A-B9FB-075B-E877-CD15-A0FE}" name="Byggnadsnämnden"/>
+            <subjectAreas>
+                <subjectArea name="Fritid &amp; natur"/>
+            </subjectAreas>
+            <finalizedSign date="2006-04-28"/>
+            <createdSign date="2006-04-28"/>
+            <documents>
+                <document id="{FCFE-BD77-075B-605E-CD15-A103}" index="16" orgin="Written" date="2006-04-28"
+                          author="Christer Joelsson" status="Active">
+                    <description>Bygglovsansökan Minken 4:5</description>
+                    <type id="{FCFE-99B0-075B-FF78-CD15-A0FE}" name="Skrivelse"/>
+                    <diary id="{FC9A-B9FB-075B-E877-CD15-A0FE}" name="Byggnadsnämnden"/>
+                    <owners>
+                        <owner id="{FCFD-BB09-075B-A446-CD15-A0FF}" type="Case" name="BN/2006:2"/>
+                    </owners>
+                    <file format="doc" size="19968" sizeType="B"/>
+                    <createdSign date="2006-04-28" by="christer joelsson"/>
+                    <modifiedSign date="2006-11-24" by="christer joelsson"/>
+                    <finalizedSign date="2006-04-28"/>
+                </document>
+                <document id="{FCFE-BDAB-075B-605D-CD15-A103}" index="53" orgin="OwnProduction"
+                          author="Christer Joelsson"
+                          status="Idle">
+                    <description>Bygglovsansökan Minken 4:5</description>
+                    <type id="{FCFE-9267-075B-FFBA-CD15-A0FE}" name="Tjänsteskrivelse"/>
+                    <diary id="{FC9A-B9FB-075B-E877-CD15-A0FE}" name="Byggnadsnämnden"/>
+                    <owners>
+                        <owner id="{FCFD-BB09-075B-A446-CD15-A0FF}" type="Case" name="BN/2006:2"/>
+                        <owner id="{FCFC-AE84-075B-FBB9-CD15-A0FE}" type="Meeting" name="BN/2007-01-19"/>
+                        <owner id="{FCF6-B181-075B-DFF1-CD15-A0FE}" type="MeetingTopic"
+                               name="§ 4 Bygglovsansökan Minken 4:5"/>
+                    </owners>
+                    <file format="rtf" size="34164" sizeType="B"/>
+                    <createdSign date="2006-11-24" by="christer joelsson"/>
+                </document>
+                <document id="{FCFE-BDAB-075B-605D-CD15-A103}" index="53" orgin="OwnProduction"
+                          author="Christer Joelsson"
+                          status="Idle">
+                    <modifiedSign date="2006-11-24" by="christer joelsson"/>
+                    <finalizedSign date="2006-11-24"/>
+                </document>
+            </documents>
+            <meetings>
+                <meeting id="{FCFC-AE84-075B-FBB9-CD15-A0FE}" title="BN/2007-01-19" status="Active"
+                         unit="Byggnadsnämnden"
+                         date="2007-01-19" time="10:00" location="Skällvik">
+                    <type id="{FCFC-8F01-075B-FFFE-CD15-A0FE}" name="Ordinarie"/>
+                    <description>sammanträde 2</description>
+                </meeting>
+                <meeting id="{FCFC-AE84-075B-FBB9-CD15-A0FE}" title="BN/2007-01-19" status="Active"
+                         unit="Byggnadsnämnden"
+                         date="2007-01-19" time="10:00" location="Skällvik">
+                    <modifiedSign date="2006-12-19" by="christer joelsson"/>
+                    <createdSign date="2006-12-19" by="christer joelsson"/>
+                    <topics></topics>
+                    <topics>
+                        <topic id="{FCF6-B181-075B-DFF1-CD15-A0FE}" title="Bygglovsansökan Minken 4:5" number="4"/>
+                    </topics>
+                </meeting>
+            </meetings>
+        </case>
+    </information>
+</lex>

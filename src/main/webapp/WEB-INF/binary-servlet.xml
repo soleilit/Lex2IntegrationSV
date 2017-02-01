@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    <bean id="binaryController" class="se.solarplexusit.lexportlet.servlet.BinaryController">
+        <constructor-arg ref="lexService" /> <!-- From shared context -->
+    </bean>
+
+    <bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="mappings">
+            <value>
+                /*=binaryController
+            </value>
+        </property>
+    </bean>
+</beans>

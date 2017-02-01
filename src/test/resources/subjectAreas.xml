@@ -1,0 +1,22 @@
+<config>
+    <subjectAreas>
+        <subjectArea id="{FC97-A5BF-075B-FFF5-CD15-A0FE}" name="Administration &amp; förvaltning"/>
+        <subjectArea id="{FC97-9C87-075B-FFFE-CD15-A0FE}" name="Bygga &amp; bo"/>
+        <subjectArea id="{FC97-9CBD-075B-FFFD-CD15-A0FE}" name="Fritid &amp; natur"/>
+        <subjectArea id="{FC97-9CF3-075B-FFFC-CD15-A0FE}" name="Kultur &amp; bibliotek"/>
+        <subjectArea id="{FC97-9E01-075B-FFF7-CD15-A0FE}" name="Miljö"/>
+        <subjectArea id="{FC97-9D29-075B-FFFB-CD15-A0FE}" name="Omsorg &amp; stöd"/>
+        <subjectArea id="{FC97-9D5F-075B-FFFA-CD15-A0FE}" name="Resor &amp; trafik"/>
+        <subjectArea id="{FC97-9D95-075B-FFF9-CD15-A0FE}" name="Skydd &amp; säkerhet"/>
+        <subjectArea id="{FC97-9E37-075B-FFF6-CD15-A0FE}"
+                     name="Byggnadsnämnden                                                                                      (Diarium)">
+            <description>BN</description>
+        </subjectArea>
+    </subjectAreas>
+    <subjectAreas>
+        <subjectArea id="{FC97-9DCB-075B-FFF8-CD15-A0FE}"
+                     name="Kommunstyrelsen                                                                                      (Diarium)">
+            <description>KS</description>
+        </subjectArea>
+    </subjectAreas>
+</config>

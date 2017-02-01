@@ -1,0 +1,273 @@
+<lex xmlns="http://lex.wmdata.com/schemas/LeXml.xsd">
+    <information></information>
+    <information>
+        <meeting id="{FCFC-AB03-075B-FBB1-CD15-A0FE}" title="KS/2008-01-22" status="Active" unit="Kommunstyrelsen"
+                 date="2008-01-22" time="09:00" location="Stora salen">
+            <type id="{FCFC-8F01-075B-FFFE-CD15-A0FE}" name="Ordinarie"/>
+            <modifiedSign date="2008-01-29" by="anna-lena amundson"/>
+            <createdSign date="2008-01-29" by="johan bergman"/>
+            <topics>
+                <topic id="{FCF6-B1E2-075B-DFD7-CD15-A0FE}" number="1">
+                    <sortOrder>1</sortOrder>
+                    <title>Allmän information</title>
+                </topic>
+                <topic id="{FCF6-B215-075B-DFD6-CD15-A0FE}" number="2">
+                    <sortOrder>2</sortOrder>
+                    <title>Val</title>
+                </topic>
+                <topic id="{FCF6-B27B-075B-DFD4-CD15-A0FE}" number="§4">
+                    <sortOrder>3</sortOrder>
+                    <title>Sekretessbelagd</title>
+                    <documents>
+                        <document id="{FCFE-C0A7-075B-5F6B-CD15-A103}" index="14" orgin="OwnProduction"
+                                  date="2008-01-29" author="Anna-Lena Amundson" status="Idle">
+                            <description>Sekretessbelagd</description>
+                            <type id="{FCFE-9267-075B-FFBA-CD15-A0FE}" name="Tjänsteskrivelse"/>
+                            <diary id="{FC9A-B914-075B-E884-CD15-A0FE}" name="Kommunstyrelsen"/>
+                            <owners>
+                                <owner id="{FCFD-BDC8-075B-A396-CD15-A0FF}" type="Case" name="KS/2008:7"/>
+                                <owner id="{FCFC-AB03-075B-FBB1-CD15-A0FE}" type="Meeting" name="KS/2008-01-22"/>
+                                <owner id="{FCF6-B27B-075B-DFD4-CD15-A0FE}" type="MeetingTopic"
+                                       name="§ 3 Interpellation från Miljöpartiet"/>
+                            </owners>
+                            <createdSign date="2008-01-29" by="johan bergman"/>
+                            <modifiedSign date="2008-01-29" by="anna-lena amundson"/>
+                            <finalizedSign date="2008-01-29"/>
+                        </document>
+                    </documents>
+                    <cases>
+                        <case id="{FCFD-BDC8-075B-A396-CD15-A0FF}" title="KS/2008:7" status="Preliminary">
+                            <type id="{FCFD-B83C-075B-D88C-CD15-A0FE}" name="002 Interpellation"/>
+                            <description>Interpellation från Miljöpartiet</description>
+                            <diary id="{FC9A-B914-075B-E884-CD15-A0FE}" name="Kommunstyrelsen"/>
+                            <subjectAreas>
+                                <subjectArea name="Bygga &amp; bo"/>
+                            </subjectAreas>
+                            <finalizedSign date="2008-01-29"/>
+                            <createdSign date="2008-01-29"/>
+                        </case>
+                    </cases>
+                    <decisions>
+                        <decision id="{FCF4-BDA2-075B-BC4B-CD15-A0FF}"/>
+                    </decisions>
+                </topic>
+                <topic id="{FCF6-B2AE-075B-DFD3-CD15-A0FE}" number="§5">
+                    <sortOrder>4</sortOrder>
+                    <title>Sekretessbelagd</title>
+                    <documents>
+                        <document id="{FCFE-BC08-075B-75A5-CD15-A103}" index="1337" orgin="Intern" date="2005-06-08"
+                                  author="Kerstin Axtelius" status="Idle">
+                            <description>Sekretessbelagd</description>
+                            <type id="{FCFE-9267-075B-FFBA-CD15-A0FE}" name="Tjänsteskrivelse"/>
+                            <diary id="{FC9A-B914-075B-E884-CD15-A0FE}" name="Kommunstyrelsen"/>
+                            <owners>
+                                <owner id="{FCFD-BD0D-075B-BA42-CD15-A0FF}" type="Case" name="KS/2004:205"/>
+                                <owner id="{FCFC-AB03-075B-FBB1-CD15-A0FE}" type="Meeting" name="KS/2008-01-22"/>
+                                <owner id="{FCF6-B2AE-075B-DFD3-CD15-A0FE}" type="MeetingTopic"
+                                       name="§ 4 Tjskriv från Stark - Utlåtande efter utställning - Detaljplan för kv Staben m fl, Västerjärva, etapp 1"/>
+                            </owners>
+                            <createdSign date="2005-06-16" by="Kerstin Axtelius"/>
+                            <modifiedSign date="2005-06-16" by="Kerstin Axtelius"/>
+                            <finalizedSign date="2005-06-16"/>
+                        </document>
+                    </documents>
+                    <cases>
+                        <case id="{FCFD-BD0D-075B-BA42-CD15-A0FF}" title="KS/2004:205" status="Preliminary">
+                            <type id="{FCFD-B3FF-075B-D887-CD15-A0FE}" name="104 Planärende"/>
+                            <description>Ärendeoll lhgjfg arsdlgiozsd radmatning zdfgzsdr gzhjufoigtuza
+                                gfauotguartyoajizrpgjpzsdfjgozufgzö zdfguåas gtuaog a&lt;uosgfoasruigtaeruigt z&lt;srug
+                                zgfzsruodgftuorugtuzsfguiozsfopgz &lt;vf z&lt;sigft&lt;sgfousfiguodfg z gf zfgujza
+                                gfuzsdgt aftr a&lt;tr awtu ouisrgaoåt aetuipar tr &lt;sdgt asfg asjtoaweru toauf
+                                gudftyeigt f gauer0tu aertua srv artua vuftv tyurt7rdjgoah gfjadfgjaropgjarethjarijt
+                                vawjt abvr rgjga
+                                400mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm450mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm500mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm550mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm600mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm650mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm700mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm750mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm800mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm850mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm900mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm950mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm1000mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm1050
+                            </description>
+                            <diary id="{FC9A-B914-075B-E884-CD15-A0FE}" name="Kommunstyrelsen"/>
+                            <subjectAreas>
+                                <subjectArea name="Bygga &amp; bo"/>
+                            </subjectAreas>
+                            <finalizedSign date="2004-06-10"/>
+                            <createdSign date="2004-06-10"/>
+                        </case>
+                    </cases>
+                    <decisions>
+                        <decision id="{FCF4-BDD8-075B-BC4A-CD15-A0FF}"/>
+                    </decisions>
+                </topic>
+                <topic id="{FCF6-B2E1-075B-DFD2-CD15-A0FE}" number="§6">
+                    <sortOrder>5</sortOrder>
+                    <title>Granskning av arkivlagens tillämpning i Solna stad</title>
+                    <cases>
+                        <case id="{FCFD-B9E8-075B-C179-CD15-A0FF}" title="KS/2004:29" status="Preliminary">
+                            <type id="{FCFD-B315-075B-D8EE-CD15-A0FE}" name="100 Allmänt, Stadsledningsförvaltning"/>
+                            <description>Granskning av arkivlagens tillämpning i Solna stad</description>
+                            <diary id="{FC9A-B914-075B-E884-CD15-A0FE}" name="Kommunstyrelsen"/>
+                            <subjectAreas>
+                                <subjectArea name="Bygga &amp; bo"/>
+                            </subjectAreas>
+                            <finalizedSign date="2004-01-27"/>
+                            <createdSign date="2004-01-27"/>
+                        </case>
+                    </cases>
+                    <decisions>
+                        <decision id="{FCF4-BC5A-075B-BC49-CD15-A0FF}"/>
+                    </decisions>
+                </topic>
+                <topic id="{FCF6-B248-075B-DFD5-CD15-A0FE}" number="§10">
+                    <sortOrder>6</sortOrder>
+                    <title>Utredning om bullernivåer i staden</title>
+                    <documents>
+                        <document id="{FCFE-BE54-075B-5F2C-CD15-A103}" index="15" orgin="OwnProduction"
+                                  date="2008-01-01" author="Johan Bergman" status="Idle">
+                            <description>Rapport om rondeller</description>
+                            <type id="{FCFE-9267-075B-FFBA-CD15-A0FE}" name="Tjänsteskrivelse"/>
+                            <diary id="{FC9A-B914-075B-E884-CD15-A0FE}" name="Kommunstyrelsen"/>
+                            <owners>
+                                <owner id="{FCFD-BE01-075B-A395-CD15-A0FF}" type="Case" name="KS/2008:8"/>
+                                <owner id="{FCFC-AB03-075B-FBB1-CD15-A0FE}" type="Meeting" name="KS/2008-01-22"/>
+                                <owner id="{FCF6-B248-075B-DFD5-CD15-A0FE}" type="MeetingTopic"
+                                       name="§ 6 Utredning om bullernivåer i staden"/>
+                            </owners>
+                            <file format="rtf" size="207317" sizeType="B"/>
+                            <createdSign date="2008-01-29" by="johan bergman"/>
+                            <modifiedSign date="2008-04-04" by="johan bergman"/>
+                            <finalizedSign date="2008-01-29"/>
+                        </document>
+                    </documents>
+                    <cases>
+                        <case id="{FCFD-BE01-075B-A395-CD15-A0FF}" title="KS/2008:8" status="Preliminary">
+                            <type id="{FCFD-B862-075B-D7CF-CD15-A0FE}" name="126 Buller"/>
+                            <description>Klagomål på buller</description>
+                            <diary id="{FC9A-B914-075B-E884-CD15-A0FE}" name="Kommunstyrelsen"/>
+                            <subjectAreas>
+                                <subjectArea name="Bygga &amp; bo"/>
+                            </subjectAreas>
+                            <finalizedSign date="2008-01-20"/>
+                            <createdSign date="2008-01-20"/>
+                        </case>
+                    </cases>
+                    <decisions>
+                        <decision id="{FCF4-BD6A-075B-BC3C-CD15-A0FF}"/>
+                    </decisions>
+                </topic>
+                <topic id="{FCF6-B314-075B-DFD1-CD15-A0FE}" number="7">
+                    <sortOrder>7</sortOrder>
+                    <title></title>
+                </topic>
+            </topics>
+            <documents>
+                <document id="{FCFE-C06F-075B-5F6C-CD15-A103}" index="17" orgin="OwnProduction" date="2008-01-29"
+                          author="Anna-Lena Amundson" status="Idle">
+                    <description>Sekretessbelagd</description>
+                    <type id="{FCFE-8E95-075B-FFF5-CD15-A0FE}" name="Kallelse"/>
+                    <diary id="{FC9A-B914-075B-E884-CD15-A0FE}" name="Kommunstyrelsen"/>
+                    <owners>
+                        <owner id="{FCFC-AB03-075B-FBB1-CD15-A0FE}" type="Meeting" name="KS/2008-01-22"/>
+                    </owners>
+                    <file format="rtf" size="412702" sizeType="B"/>
+                    <createdSign date="2008-01-29" by="johan bergman"/>
+                    <modifiedSign date="2008-01-29" by="anna-lena amundson"/>
+                    <finalizedSign date="2008-01-29"/>
+                </document>
+            </documents>
+            <cases>
+                <case id="{FCFD-BDC8-075B-A396-CD15-A0FF}" title="KS/2008:7" status="Preliminary">
+                    <type id="{FCFD-B83C-075B-D88C-CD15-A0FE}" name="002 Interpellation"/>
+                    <description>Interpellation från Miljöpartiet</description>
+                    <diary id="{FC9A-B914-075B-E884-CD15-A0FE}" name="Kommunstyrelsen"/>
+                    <subjectAreas>
+                        <subjectArea name="Bygga &amp; bo"/>
+                    </subjectAreas>
+                    <finalizedSign date="2008-01-29"/>
+                    <createdSign date="2008-01-29"/>
+                </case>
+                <case id="{FCFD-BD0D-075B-BA42-CD15-A0FF}" title="KS/2004:205" status="Preliminary">
+                    <type id="{FCFD-B3FF-075B-D887-CD15-A0FE}" name="104 Planärende"/>
+                    <description>Ärendeoll lhgjfg arsdlgiozsd radmatning zdfgzsdr gzhjufoigtuza
+                        gfauotguartyoajizrpgjpzsdfjgozufgzö zdfguåas gtuaog a&lt;uosgfoasruigtaeruigt z&lt;srug
+                        zgfzsruodgftuorugtuzsfguiozsfopgz &lt;vf z&lt;sigft&lt;sgfousfiguodfg z gf zfgujza gfuzsdgt aftr
+                        a&lt;tr awtu ouisrgaoåt aetuipar tr &lt;sdgt asfg asjtoaweru toauf gudftyeigt f gauer0tu aertua
+                        srv artua vuftv tyurt7rdjgoah gfjadfgjaropgjarethjarijt vawjt abvr rgjga
+                        400mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm450mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm500mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm550mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm600mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm650mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm700mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm750mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm800mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm850mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm900mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm950mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm1000mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm1050
+                    </description>
+                    <diary id="{FC9A-B914-075B-E884-CD15-A0FE}" name="Kommunstyrelsen"/>
+                    <subjectAreas>
+                        <subjectArea name="Bygga &amp; bo"/>
+                    </subjectAreas>
+                    <finalizedSign date="2004-06-10"/>
+                    <createdSign date="2004-06-10"/>
+                </case>
+                <case id="{FCFD-B9E8-075B-C179-CD15-A0FF}" title="KS/2004:29" status="Preliminary">
+                    <type id="{FCFD-B315-075B-D8EE-CD15-A0FE}" name="100 Allmänt, Stadsledningsförvaltning"/>
+                    <description>Granskning av arkivlagens tillämpning i Solna stad</description>
+                    <diary id="{FC9A-B914-075B-E884-CD15-A0FE}" name="Kommunstyrelsen"/>
+                    <subjectAreas>
+                        <subjectArea name="Bygga &amp; bo"/>
+                    </subjectAreas>
+                    <finalizedSign date="2004-01-27"/>
+                    <createdSign date="2004-01-27"/>
+                </case>
+                <case id="{FCFD-BE01-075B-A395-CD15-A0FF}" title="KS/2008:8" status="Preliminary">
+                    <type id="{FCFD-B862-075B-D7CF-CD15-A0FE}" name="126 Buller"/>
+                    <description>Klagomål på buller</description>
+                    <diary id="{FC9A-B914-075B-E884-CD15-A0FE}" name="Kommunstyrelsen"/>
+                    <subjectAreas>
+                        <subjectArea name="Bygga &amp; bo"/>
+                    </subjectAreas>
+                    <finalizedSign date="2008-01-20"/>
+                    <createdSign date="2008-01-20"/>
+                </case>
+            </cases>
+            <decisions>
+                <decision id="{FCF4-BD6A-075B-BC3C-CD15-A0FF}" title="KS §/2008:10" series="KS §" year="2008"
+                          number="10" date="2008-01-22">
+                    <decisionText></decisionText>
+                    <owners>
+                        <topics>
+                            <topic id="{FCF6-B248-075B-DFD5-CD15-A0FE}" title="Utredning om bullernivåer i staden"
+                                   number="§ 10"/>
+                        </topics>
+                    </owners>
+                    <type name="-"/>
+                </decision>
+                <decision id="{FCF4-BC5A-075B-BC49-CD15-A0FF}" title="FRN/2008:6" series="FRN" year="2008" number="6"
+                          date="2008-01-22">
+                    <decisionText></decisionText>
+                    <owners>
+                        <topics>
+                            <topic id="{FCF6-B2E1-075B-DFD2-CD15-A0FE}"
+                                   title="Granskning av arkivlagens tillämpning i Solna stad" number="§ 6"/>
+                        </topics>
+                    </owners>
+                    <type name="-"/>
+                    <sign date="2008-01-29" by="anna-lena amundson"/>
+                </decision>
+                <decision id="{FCF4-BDD8-075B-BC4A-CD15-A0FF}" title="FRN/2008:5" series="FRN" year="2008" number="5"
+                          date="2008-01-22">
+                    <decisionText></decisionText>
+                    <owners>
+                        <topics>
+                            <topic id="{FCF6-B2AE-075B-DFD3-CD15-A0FE}"
+                                   title="Tjskriv från Stark - Utlåtande efter utställning - Detaljplan för kv Staben m fl, Västerjärva, etapp 1"
+                                   number="§ 5"/>
+                        </topics>
+                    </owners>
+                    <type name="-"/>
+                    <sign date="2008-01-29" by="anna-lena amundson"/>
+                </decision>
+                <decision id="{FCF4-BDA2-075B-BC4B-CD15-A0FF}" title="FRN/2008:4" series="FRN" year="2008" number="4"
+                          date="2008-01-22">
+                    <decisionText></decisionText>
+                    <owners>
+                        <topics>
+                            <topic id="{FCF6-B27B-075B-DFD4-CD15-A0FE}" title="Interpellation från Miljöpartiet"
+                                   number="§ 4"/>
+                        </topics>
+                    </owners>
+                    <type name="-"/>
+                    <sign date="2008-01-29" by="anna-lena amundson"/>
+                </decision>
+            </decisions>
+        </meeting>
+    </information>
+</lex>

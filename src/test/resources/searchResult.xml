@@ -1,0 +1,831 @@
+<lex xmlns="http://lex.wmdata.com/schemas/LeXml.xsd">
+    <infoSet>
+        <case id="{FCFD-BEE5-075B-A391-CD15-A0FF}" title="BN/2008:1">
+            <description>sss</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Byggnadsnämnden"/>
+            </subjectAreas>
+            <type name="003 Fråga"/>
+            <createdSign date="2008-02-01"/>
+            <modifiedSign date="2008-02-01" by="christer joelsson"/>
+        </case>
+        <case id="{FCFD-BBDD-075B-A37E-CD15-A0FF}" title="BN/2008:2">
+            <description>zzz</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Byggnadsnämnden"/>
+            </subjectAreas>
+            <type name="003 Fråga"/>
+            <createdSign date="2008-03-03"/>
+            <modifiedSign date="2008-03-03" by="christer joelsson"/>
+        </case>
+        <case id="{FCFD-BC0F-075B-A37D-CD15-A0FF}" title="BN/2008:3">
+            <description>zzz</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Byggnadsnämnden"/>
+            </subjectAreas>
+            <type name="003 Fråga"/>
+            <createdSign date="2008-03-04"/>
+            <modifiedSign date="2008-03-04" by="christer joelsson"/>
+        </case>
+        <case id="{FCFD-BC41-075B-A37C-CD15-A0FF}" title="BN/2008:4">
+            <description>z93</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Byggnadsnämnden"/>
+            </subjectAreas>
+            <type name="003 Fråga"/>
+            <createdSign date="2008-03-05"/>
+            <modifiedSign date="2008-03-05" by="christer joelsson"/>
+        </case>
+        <case id="{FCFD-BAE2-075B-A37B-CD15-A0FF}" title="BN/2008:5">
+            <description>Testar registervården</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Byggnadsnämnden"/>
+            </subjectAreas>
+            <type name="003 Fråga"/>
+            <createdSign date="2008-03-06"/>
+            <modifiedSign date="2008-03-06" by="christer joelsson"/>
+        </case>
+        <document id="{FCFE-BD4F-075B-5F41-CD15-A103}">
+            <description>zzz</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Byggnadsnämnden"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BAE2-075B-A37B-CD15-A0FF}" type="Case" name="BN/2008:5"/>
+            </owners>
+            <type name="Anbud"/>
+            <finalizedSign date="2008-03-06"/>
+            <modifiedSign date="2008-03-06" by="christer joelsson"/>
+        </document>
+        <document id="{FCFE-BD82-075B-5F40-CD15-A103}">
+            <description>varning</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Byggnadsnämnden"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BAE2-075B-A37B-CD15-A0FF}" type="Case" name="BN/2008:5"/>
+            </owners>
+            <type name="Anbud"/>
+            <file format="doc" size="34304" sizeType="B"/>
+            <modifiedSign date="2008-03-06" by="christer joelsson"/>
+        </document>
+        <case id="{FCFD-BBD7-075B-A376-CD15-A0FF}" title="BN/2008:6">
+            <description>arkivtestcvhj</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Byggnadsnämnden"/>
+            </subjectAreas>
+            <type name="003 Fråga"/>
+            <createdSign date="2008-03-13"/>
+            <modifiedSign date="2008-03-13" by="christer joelsson"/>
+        </case>
+        <document id="{FCFE-BEB4-075B-5F3A-CD15-A103}">
+            <description>Registrator LEX</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Byggnadsnämnden"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BBD7-075B-A376-CD15-A0FF}" type="Case" name="BN/2008:6"/>
+            </owners>
+            <type name="Anbud"/>
+            <file format="doc" size="1531392" sizeType="B"/>
+            <finalizedSign date="2008-03-13"/>
+            <modifiedSign date="2008-03-13" by="christer joelsson"/>
+        </document>
+        <case id="{FCFD-BE43-075B-A39C-CD15-A0FF}" title="KS/2008:1">
+            <description>Sekretessbelagt</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="001 Motion"/>
+            <secrecy/>
+            <createdSign date="2008-01-24"/>
+            <modifiedSign date="2008-01-24" by="christer joelsson"/>
+        </case>
+        <document id="{FCFE-BFC9-075B-5F7F-CD15-A103}">
+            <description>Sekretessbelagt</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BE43-075B-A39C-CD15-A0FF}" type="Case" name="KS/2008:1"/>
+            </owners>
+            <type name="Anbud"/>
+            <file format="txt" size="13" sizeType="B" restriction="Secrecy"/>
+            <secrecy/>
+            <finalizedSign date="2008-01-24"/>
+            <modifiedSign date="2008-01-24" by="christer joelsson"/>
+        </document>
+        <document id="{FCFE-BE80-075B-5F7D-CD15-A103}">
+            <description>Sekretessbelagt</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BE43-075B-A39C-CD15-A0FF}" type="Case" name="KS/2008:1"/>
+            </owners>
+            <type name="Anbud"/>
+            <file format="txt" size="13" sizeType="B" restriction="Secrecy"/>
+            <secrecy/>
+            <modifiedSign date="2008-01-24" by="christer joelsson"/>
+        </document>
+        <document id="{FCFE-BEB7-075B-5F7C-CD15-A103}">
+            <description>ZZZJotodD1H</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BE7B-075B-A39B-CD15-A0FF}" type="Case" name="KS/2008:2"/>
+            </owners>
+            <type name="Anbud"/>
+            <file format="txt" size="13" sizeType="B"/>
+            <finalizedSign date="2008-01-30"/>
+            <modifiedSign date="2008-01-30" by="christer joelsson"/>
+        </document>
+        <document id="{FCFE-BEEE-075B-5F7B-CD15-A103}">
+            <description>ZZZ_Jotod_D2O</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BE7B-075B-A39B-CD15-A0FF}" type="Case" name="KS/2008:2"/>
+            </owners>
+            <type name="Anbud"/>
+            <file format="txt" size="13" sizeType="B"/>
+            <finalizedSign date="2008-01-26"/>
+            <modifiedSign date="2008-01-26" by="christer joelsson"/>
+        </document>
+        <case id="{FCFD-BE7B-075B-A39B-CD15-A0FF}" title="KS/2008:2">
+            <description>ZZZ_Jotod_Test_A1</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="000 Remisser"/>
+            <createdSign date="2008-01-26"/>
+            <modifiedSign date="2008-01-26" by="christer joelsson"/>
+        </case>
+        <document id="{FCFE-BDB5-075B-5F3F-CD15-A103}">
+            <description>Denna skrivelse Protokoll lhgjfg arsdlgiozsd radmatning zdfgzsdr gzhjufoigtuza
+                gfauotguartyoajizrpgjpzsdfjgozufgzö zdfguåas gtuaog aauosgfoasruigtaeruigt zasrug
+                zgfzsruodgftuorugtuzsfguiozsfopgz avf zasigftasgfousfiguodfg z gf zfgujza gfuzsdgt aftr aatr awtu
+                ouisrg400 mmmm mmmmm mmmmmm mmmmm mmm mmmmmmmmm mmmmmmm mmmmm450mmmmmmmm mmmmmmm mmmmmmmmmmmmmm
+                mmmmmmmmmmmmmmm mmm500mmmmmmmmmm mmmm mmmmmmm mmmmm mmmmmmmmm mmmmm mmmmmm550mmmmm mmmmm mmmmmm
+                mmmmmmmmmmmm mmmmmmmmm mm mmmmm mmm600mmmmm mmmmm mmmmm mmmmmmm mmmmm
+                mmmmmmmmmmmmmmmmmmmm650mmmmmmmmmmmmmmmm mmmmmm mmmmmmmmmmmm mmmmmmmmmmmmm700mmmmmm mmmmmmmmmm mmmmmmmmm
+                mmmmmmmmmm mmmmmmmmm mmm750mmmmmmmmmmmmmm mmmmmmmmm mmmmmmm mmmmm mmmmmmm mmm mm800mmmm mmmmmmmmmmmmmmm
+                mmmmmmm mmmmmmmmmmmmm mmmmmm mm850mmmmmmmmmmmm mmmmmmmmmmmmm mmmmmmmmmmmmm mmmmmmmm m900mmmmmmmmmmmmmmmm
+                mmmmmmmmm mmmmmmmm mmmmm mmmmmmmmm950mmm mmmmmmmm mmmmmmmmmmmm mmmmmmmm mmmmmmm mmmmmmmm1000mmmmmmm
+                mmmmmmm mmmmmmmmmmmmmmmm mmmmmmm mmmmmmmmm1050
+            </description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BE7B-075B-A39B-CD15-A0FF}" type="Case" name="KS/2008:2"/>
+            </owners>
+            <type name="Tjänsteskrivelse"/>
+            <modifiedSign date="2008-03-11" by="johan bergman"/>
+        </document>
+        <document id="{FCFE-BDDB-075B-5F4E-CD15-A103}">
+            <description>Detta Protokoll lhgjfg arsdlgiozsd radmatning zdfgzsdr gzhjufoigtuza
+                gfauotguartyoajizrpgjpzsdfjgozufgzö zdfguåas gtuaog aauosgfoasruigtaeruigt zasrug
+                zgfzsruodgftuorugtuzsfguiozsfopgz avf zasigftasgfousfiguodfg z gf zfgujza gfuzsdgt aftr aatr awtu
+                ouisrg400 mmmm mmmmm mmmmmm mmmmm mmm mmmmmmmmm mmmmmmm mmmmm450mmmmmmmm mmmmmmm mmmmmmmmmmmmmm
+                mmmmmmmmmmmmmmm mmm500mmmmmmmmmm mmmm mmmmmmm mmmmm mmmmmmmmm mmmmm mmmmmm550mmmmm mmmmm mmmmmm
+                mmmmmmmmmmmm mmmmmmmmm mm mmmmm mmm600mmmmm mmmmm mmmmm mmmmmmm mmmmm
+                mmmmmmmmmmmmmmmmmmmm650mmmmmmmmmmmmmmmm mmmmmm mmmmmmmmmmmm mmmmmmmmmmmmm700mmmmmm mmmmmmmmmm mmmmmmmmm
+                mmmmmmmmmm mmmmmmmmm mmm750mmmmmmmmmmmmmm mmmmmmmmm mmmmmmm mmmmm mmmmmmm mmm mm800mmmm mmmmmmmmmmmmmmm
+                mmmmmmm mmmmmmmmmmmmm mmmmmm mm850mmmmmmmmmmmm mmmmmmmmmmmmm mmmmmmmmmmmmm mmmmmmmm m900mmmmmmmmmmmmmmmm
+                mmmmmmmmm mmmmmmmm mmmmm mmmmmmmmm950mmm mmmmmmmm mmmmmmmmmmmm mmmmmmmm mmmmmmm mmmmmmmm1000mmmmmmm
+                mmmmmmm mmmmmmmmmmmmmmmm mmmmmmm mmmmmmmmm1050
+            </description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BE7B-075B-A39B-CD15-A0FF}" type="Case" name="KS/2008:2"/>
+            </owners>
+            <type name="Rapport"/>
+            <file format="doc" size="19968" sizeType="B"/>
+            <finalizedSign date="2008-01-31"/>
+            <modifiedSign date="2008-02-12" by="johan bergman"/>
+        </document>
+        <document id="{FCFE-BFC0-075B-5F67-CD15-A103}">
+            <description>Annonsunderlag</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BE7B-075B-A39B-CD15-A0FF}" type="Case" name="KS/2008:2"/>
+            </owners>
+            <type name="Annons"/>
+            <file format="doc" size="19968" sizeType="B"/>
+            <finalizedSign date="2008-01-30"/>
+            <modifiedSign date="2008-01-30" by="johan bergman"/>
+        </document>
+        <document id="{FCFE-BF5C-075B-5F79-CD15-A103}">
+            <description>xxxdokument1B</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BEB3-075B-A39A-CD15-A0FF}" type="Case" name="KS/2008:3"/>
+            </owners>
+            <type name="Anbud"/>
+            <file format="txt" size="13" sizeType="B"/>
+            <finalizedSign date="2008-01-26"/>
+            <modifiedSign date="2008-01-26" by="christer joelsson"/>
+        </document>
+        <case id="{FCFD-BEB3-075B-A39A-CD15-A0FF}" title="KS/2008:3">
+            <description>JotodTestArende1</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="000 Remisser"/>
+            <createdSign date="2008-01-26"/>
+            <modifiedSign date="2008-01-26" by="christer joelsson"/>
+        </case>
+        <document id="{FCFE-BF25-075B-5F7A-CD15-A103}">
+            <description>Sekretessbelagt</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BEB3-075B-A39A-CD15-A0FF}" type="Case" name="KS/2008:3"/>
+            </owners>
+            <type name="Anbud"/>
+            <file format="txt" size="13" sizeType="B" restriction="Secrecy"/>
+            <secrecy/>
+            <finalizedSign date="2008-01-26"/>
+            <modifiedSign date="2008-01-26" by="christer joelsson"/>
+        </document>
+        <case id="{FCFD-BD1D-075B-A399-CD15-A0FF}" title="KS/2008:4">
+            <description>JotodTestArende2</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="000 Remisser"/>
+            <createdSign date="2008-01-26"/>
+            <modifiedSign date="2008-01-30" by="christer joelsson"/>
+        </case>
+        <document id="{FCFE-BF93-075B-5F78-CD15-A103}">
+            <description>Sekretessbelagt</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BD1D-075B-A399-CD15-A0FF}" type="Case" name="KS/2008:4"/>
+            </owners>
+            <type name="Anbud"/>
+            <file format="txt" size="13" sizeType="B" restriction="Secrecy"/>
+            <secrecy/>
+            <finalizedSign date="2008-01-26"/>
+            <modifiedSign date="2008-01-26" by="christer joelsson"/>
+        </document>
+        <document id="{FCFE-BFCA-075B-5F77-CD15-A103}">
+            <description>-</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BD1D-075B-A399-CD15-A0FF}" type="Case" name="KS/2008:4"/>
+            </owners>
+            <type name="Anbud"/>
+            <file format="txt" size="13" sizeType="B"/>
+            <finalizedSign date="2008-01-26"/>
+            <modifiedSign date="2008-01-26" by="christer joelsson"/>
+        </document>
+        <document id="{FCFE-BFF9-075B-5F66-CD15-A103}">
+            <description>Registrator</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BD1D-075B-A399-CD15-A0FF}" type="Case" name="KS/2008:4"/>
+            </owners>
+            <type name="Ansökan"/>
+            <finalizedSign date="2008-01-30"/>
+            <modifiedSign date="2008-01-30" by="johan bergman"/>
+        </document>
+        <document id="{FCFE-C032-075B-5F65-CD15-A103}">
+            <description>Skiss över planlösning</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BD1D-075B-A399-CD15-A0FF}" type="Case" name="KS/2008:4"/>
+            </owners>
+            <type name="Skiss"/>
+            <file format="doc" size="19968" sizeType="B"/>
+            <modifiedSign date="2008-01-30" by="johan bergman"/>
+        </document>
+        <document id="{FCFE-C0A4-075B-5F63-CD15-A103}">
+            <description>aazzaazz</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BD56-075B-A398-CD15-A0FF}" type="Case" name="KS/2008:5"/>
+            </owners>
+            <type name="Anbud"/>
+            <file format="doc" size="102912" sizeType="B"/>
+            <modifiedSign date="2008-01-31" by="christer joelsson"/>
+        </document>
+        <document id="{FCFE-C0DD-075B-5F62-CD15-A103}">
+            <description>aaazzzaaazzz</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BD56-075B-A398-CD15-A0FF}" type="Case" name="KS/2008:5"/>
+            </owners>
+            <type name="Anbud"/>
+            <file format="doc" size="102912" sizeType="B"/>
+            <finalizedSign date="2008-01-31"/>
+            <modifiedSign date="2008-01-31" by="christer joelsson"/>
+        </document>
+        <document id="{FCFE-BF1F-075B-5F72-CD15-A103}">
+            <description>azaz</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BD56-075B-A398-CD15-A0FF}" type="Case" name="KS/2008:5"/>
+            </owners>
+            <type name="Anbud"/>
+            <file format="txt" size="13" sizeType="B"/>
+            <finalizedSign date="2008-01-28"/>
+            <modifiedSign date="2008-01-28" by="christer joelsson"/>
+        </document>
+        <document id="{FCFE-BF57-075B-5F71-CD15-A103}">
+            <description>Sekretessbelagt</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BD56-075B-A398-CD15-A0FF}" type="Case" name="KS/2008:5"/>
+            </owners>
+            <type name="Anbud"/>
+            <file format="txt" size="13" sizeType="B" restriction="Secrecy"/>
+            <secrecy/>
+            <finalizedSign date="2008-01-28"/>
+            <modifiedSign date="2008-01-28" by="christer joelsson"/>
+        </document>
+        <case id="{FCFD-BD56-075B-A398-CD15-A0FF}" title="KS/2008:5">
+            <description>aaaaa</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="000 Remisser"/>
+            <createdSign date="2008-01-28"/>
+            <modifiedSign date="2008-01-28" by="christer joelsson"/>
+        </case>
+        <case id="{FCFD-BD8F-075B-A397-CD15-A0FF}" title="KS/2008:6">
+            <description>Remissll lhgjfg arsdlgiozsd radmatning zdfgzsdr gzhjufoigtuza
+                gfauotguartyoajizrpgjpzsdfjgozufgzö zdfguåas gtuaog auosgfoasruigtaeruigt zsrug
+                zgfzsruodgftuorugtuzsfguiozsfopgz vf z sigftsgfousfiguodfg z gf zfgujza gfuzsdgt aftr atr awtu
+                ouisrgaoåt aetuipar tr sdgt asfg asjtoaweru toauf gudftyeigt f gauer0tu aertua srv artua vuftv
+                tyurt7rdjgoah gfjadfgjaropgjarethjarijt vawjt abvr rgjga 400mmmmmmmm mmmmmmmmmm mmmmmmm mmmmmm mmmmmm
+                mmmm mmmmmm450mm mmmm mmmmmmmmmmmmmm mmmmmmmm mmmmmmmm mmmmmmm mmmm500mm mmmmmm mmmmmmmmmmmm mmmmm
+                mmmmmmmmmmmm mmmmmm mmmm550mmmmm mmm mmmm mmmmmmmm mmmmmmmmmm mmmmmmmm mmmmmm m mm600mmm mmmmmm mmmmm
+                mmmmmmm mm mmmm mmmmm mmmmm mmmmmmmm m650mmmmmm mmmm mmmmmm mmmmmmmm mmmmmmmmmm mmmmmmmmmmm mm700mmmmm
+                mmmmmm mmmmm mmmmmmmm mmmmmmmmmm mmmmmmmmm mmmm750mmm mmmmm mmmmm mmm mmmmmmmmm mmmmmmm mmmmmmmmmmm
+                mmmm800mmmm mmmmmmm mmmmmmmm mmmmmmmmmmm mmmmmmmmm mmmmmmmm850mmmmmmmmm mmmmmmmmmm mmmmmmmmmm mmmmmmmmm
+                mmmmmmmmm9 00mmmmmmmm mmmmmmmmm mmmmmmmmmm mmmmmmmmmmmm mmmmmmmm95 0mmmmmmmmmmmmmmmm mmmmmmmmmmm
+                mmmmmmmmmm mmmmmmmmm1000mm mmmmmmmmmmm mmmmmmmm mmmmmmmmmmm mmmm mmmmmmmmmm1050
+            </description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="000 Remisser"/>
+            <createdSign date="2008-01-29"/>
+            <modifiedSign date="2008-02-12" by="johan bergman"/>
+        </case>
+        <document id="{FCFE-BF8F-075B-5F70-CD15-A103}">
+            <description>koppla avslutade arenden till objekt</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BD8F-075B-A397-CD15-A0FF}" type="Case" name="KS/2008:6"/>
+            </owners>
+            <type name="Anbud"/>
+            <file format="txt" size="13" sizeType="B"/>
+            <finalizedSign date="2008-01-29"/>
+            <modifiedSign date="2008-01-31" by="christer joelsson"/>
+        </document>
+        <document id="{FCFE-C0A7-075B-5F6B-CD15-A103}">
+            <description>Sekretessbelagt</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BDC8-075B-A396-CD15-A0FF}" type="Case" name="KS/2008:7"/>
+            </owners>
+            <type name="Tjänsteskrivelse"/>
+            <file format="rtf" size="207527" sizeType="B" restriction="Secrecy"/>
+            <secrecy/>
+            <finalizedSign date="2008-01-29"/>
+            <modifiedSign date="2008-01-29" by="anna-lena amundson"/>
+        </document>
+        <case id="{FCFD-BDC8-075B-A396-CD15-A0FF}" title="KS/2008:7">
+            <description>Interpellation från Miljöpartiet</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="002 Interpellation"/>
+            <createdSign date="2008-01-29"/>
+            <modifiedSign date="2008-01-29" by="johan bergman"/>
+        </case>
+        <case id="{FCFD-BE01-075B-A395-CD15-A0FF}" title="KS/2008:8">
+            <description>Klagomål på buller</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="126 Buller"/>
+            <createdSign date="2008-01-20"/>
+            <modifiedSign date="2008-01-20" by="johan bergman"/>
+        </case>
+        <document id="{FCFE-BCEF-075B-5F4B-CD15-A103}">
+            <description>Rapport om rondeller</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BE01-075B-A395-CD15-A0FF}" type="Case" name="KS/2008:8"/>
+            </owners>
+            <type name="Tjänsteskrivelse"/>
+            <file format="rtf" size="207317" sizeType="B"/>
+            <finalizedSign date="2008-01-29"/>
+            <modifiedSign date="2008-02-19" by="johan bergman"/>
+        </document>
+        <document id="{FCFE-BCB9-075B-5F54-CD15-A103}">
+            <description>Sekretessbelagt</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BE3A-075B-A394-CD15-A0FF}" type="Case" name="KS/2008:9"/>
+            </owners>
+            <type name="Tjänsteskrivelse"/>
+            <file format="rtf" size="207425" sizeType="B" restriction="Secrecy"/>
+            <secrecy/>
+            <finalizedSign date="2008-01-29"/>
+            <modifiedSign date="2008-02-07" by="johan bergman"/>
+        </document>
+        <case id="{FCFD-BE3A-075B-A394-CD15-A0FF}" title="KS/2008:9">
+            <description>Exploatering av Storskogen</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="122 Expoateringsavtal"/>
+            <createdSign date="2008-01-29"/>
+            <modifiedSign date="2008-01-29" by="johan bergman"/>
+        </case>
+        <case id="{FCFD-BE73-075B-A393-CD15-A0FF}" title="KS/2008:10">
+            <description>Sekretessbelagt</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="110 Upphandling"/>
+            <secrecy/>
+            <createdSign date="2008-01-28"/>
+            <modifiedSign date="2008-01-28" by="johan bergman"/>
+        </case>
+        <case id="{FCFD-BEAC-075B-A392-CD15-A0FF}" title="KS/2008:11">
+            <description>subarea1</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="125 Förköps- förvärvstillstånd"/>
+            <createdSign date="2008-02-01"/>
+            <modifiedSign date="2008-02-01" by="christer joelsson"/>
+        </case>
+        <case id="{FCFD-BF1E-075B-A390-CD15-A0FF}" title="KS/2008:12">
+            <description>Remiss angående</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="000 Remisser"/>
+            <createdSign date="2008-02-01"/>
+            <modifiedSign date="2008-02-01" by="christer joelsson"/>
+        </case>
+        <case id="{FCFD-BA26-075B-A38F-CD15-A0FF}" title="KS/2008:13">
+            <description>Sekretessbelagt</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="000 Remisser"/>
+            <secrecy/>
+            <createdSign date="2008-02-01"/>
+            <modifiedSign date="2008-02-01" by="christer joelsson"/>
+        </case>
+        <case id="{FCFD-BA57-075B-A38E-CD15-A0FF}" title="KS/2008:14">
+            <description>zzcc</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="000 Remisser"/>
+            <createdSign date="2008-02-01"/>
+            <modifiedSign date="2008-02-01" by="christer joelsson"/>
+        </case>
+        <document id="{FCFE-BCD9-075B-5F5B-CD15-A103}">
+            <description>zzzzzzz</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BA57-075B-A38E-CD15-A0FF}" type="Case" name="KS/2008:14"/>
+            </owners>
+            <type name="Anbud"/>
+            <file format="doc" size="235008" sizeType="B"/>
+            <modifiedSign date="2008-02-03" by="christer joelsson"/>
+        </document>
+        <document id="{FCFE-BC1F-075B-5F5F-CD15-A103}">
+            <description>Sekretessbelagt</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BA7E-075B-A38D-CD15-A0FF}" type="Case" name="KS/2008:15"/>
+            </owners>
+            <type name="Ansökan"/>
+            <secrecy/>
+            <finalizedSign date="2008-02-02"/>
+            <modifiedSign date="2008-02-02" by="christer joelsson"/>
+        </document>
+        <case id="{FCFD-BA7E-075B-A38D-CD15-A0FF}" title="KS/2008:15">
+            <description>xxx123</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="013 Synpunkt"/>
+            <createdSign date="2008-02-02"/>
+            <modifiedSign date="2008-02-02" by="christer joelsson"/>
+        </case>
+        <case id="{FCFD-BAAF-075B-A38C-CD15-A0FF}" title="KS/2008:16">
+            <description>Sekretessbelagt</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="000 Remisser"/>
+            <secrecy/>
+            <createdSign date="2008-02-04"/>
+            <modifiedSign date="2008-02-04" by="christer joelsson"/>
+        </case>
+        <case id="{FCFD-BAE0-075B-A38B-CD15-A0FF}" title="KS/2008:17">
+            <description>Sekretessbelagt</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="000 Remisser"/>
+            <secrecy/>
+            <createdSign date="2008-02-05"/>
+            <modifiedSign date="2008-02-05" by="christer joelsson"/>
+        </case>
+        <case id="{FCFD-BB11-075B-A38A-CD15-A0FF}" title="KS/2008:18">
+            <description>Sekretessbelagt</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="000 Remisser"/>
+            <secrecy/>
+            <createdSign date="2008-02-05"/>
+            <modifiedSign date="2008-02-05" by="christer joelsson"/>
+        </case>
+        <case id="{FCFD-BB42-075B-A389-CD15-A0FF}" title="KS/2008:19">
+            <description>Sekretessbelagt</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="000 Remisser"/>
+            <secrecy/>
+            <createdSign date="2008-02-05"/>
+            <modifiedSign date="2008-02-05" by="christer joelsson"/>
+        </case>
+        <case id="{FCFD-BB73-075B-A388-CD15-A0FF}" title="KS/2008:20">
+            <description>xcvvcx</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="000 Remisser"/>
+            <createdSign date="2008-02-05"/>
+            <modifiedSign date="2008-02-05" by="christer joelsson"/>
+        </case>
+        <case id="{FCFD-BBA4-075B-A387-CD15-A0FF}" title="KS/2008:21">
+            <description>zxzx</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="000 Remisser"/>
+            <createdSign date="2008-02-05"/>
+            <modifiedSign date="2008-02-05" by="christer joelsson"/>
+        </case>
+        <case id="{FCFD-BBD5-075B-A386-CD15-A0FF}" title="KS/2008:22">
+            <description>dgddfg</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="000 Remisser"/>
+            <createdSign date="2008-02-05"/>
+            <modifiedSign date="2008-02-05" by="christer joelsson"/>
+        </case>
+        <case id="{FCFD-BA89-075B-A385-CD15-A0FF}" title="KS/2008:23">
+            <description>gedtyty</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="000 Remisser"/>
+            <createdSign date="2008-02-05"/>
+            <modifiedSign date="2008-02-05" by="christer joelsson"/>
+        </case>
+        <case id="{FCFD-BABB-075B-A384-CD15-A0FF}" title="KS/2008:24">
+            <description>dffffffff</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="000 Remisser"/>
+            <createdSign date="2008-02-05"/>
+            <modifiedSign date="2008-02-05" by="christer joelsson"/>
+        </case>
+        <case id="{FCFD-BAE3-075B-A383-CD15-A0FF}" title="KS/2008:25">
+            <description>sssssssssssssssss</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="000 Remisser"/>
+            <createdSign date="2008-02-05"/>
+            <modifiedSign date="2008-02-05" by="christer joelsson"/>
+        </case>
+        <case id="{FCFD-BB15-075B-A382-CD15-A0FF}" title="KS/2008:26">
+            <description>dddddddd</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="000 Remisser"/>
+            <createdSign date="2008-02-05"/>
+            <modifiedSign date="2008-02-05" by="christer joelsson"/>
+        </case>
+        <case id="{FCFD-BB47-075B-A381-CD15-A0FF}" title="KS/2008:27">
+            <description>eeeeeee</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="000 Remisser"/>
+            <createdSign date="2008-02-05"/>
+            <modifiedSign date="2008-02-05" by="christer joelsson"/>
+        </case>
+        <case id="{FCFD-BB79-075B-A380-CD15-A0FF}" title="KS/2008:28">
+            <description>Remiss angående</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="000 Remisser"/>
+            <createdSign date="2008-02-06"/>
+            <modifiedSign date="2008-02-06" by="christer joelsson"/>
+        </case>
+        <case id="{FCFD-BBAB-075B-A37F-CD15-A0FF}" title="KS/2008:29">
+            <description>Remiss angående rondellhundar</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="000 Remisser"/>
+            <createdSign date="2008-02-19"/>
+            <modifiedSign date="2008-02-19" by="johan bergman"/>
+        </case>
+        <document id="{FCFE-BD22-075B-5F4A-CD15-A103}">
+            <description>Förslag angående rondellhundar</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BBAB-075B-A37F-CD15-A0FF}" type="Case" name="KS/2008:29"/>
+            </owners>
+            <type name="Tjänsteskrivelse"/>
+            <file format="rtf" size="207441" sizeType="B"/>
+            <finalizedSign date="2008-02-19"/>
+            <modifiedSign date="2008-02-19" by="johan bergman"/>
+        </document>
+    </infoSet>
+    <infoSet>
+        <document id="{FCFE-BD7E-075B-5F48-CD15-A103}">
+            <description>trdtrdtrd</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BBAB-075B-A37F-CD15-A0FF}" type="Case" name="KS/2008:29"/>
+            </owners>
+            <type name="Anbud"/>
+            <modifiedSign date="2008-02-20" by="christer joelsson"/>
+        </document>
+        <document id="{FCFE-BDB1-075B-5F47-CD15-A103}">
+            <description>dddrrrttt</description>
+            <subjectAreas>
+                <subjectArea name="Bygga &amp; bo / Kommunstyrelsen"/>
+            </subjectAreas>
+            <owners>
+                <owner id="{FCFD-BBAB-075B-A37F-CD15-A0FF}" type="Case" name="KS/2008:29"/>
+            </owners>
+            <type name="Anbud"/>
+            <file format="txt" size="9" sizeType="B"/>
+        </document>
+        <document id="{FCFE-BDB1-075B-5F47-CD15-A103}">
+            <modifiedSign date="2008-02-20" by="christer joelsson"/>
+        </document>
+        <meeting id="{FCFC-AADC-075B-FBB2-CD15-A0FE}" title="KS/2008-01-15" unit="Kommunstyrelsen" date="2008-01-15">
+            <description></description>
+            <subjectAreas>
+                <subjectArea name="Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="Ordinarie"/>
+        </meeting>
+        <meeting id="{FCFC-AADC-075B-FBB2-CD15-A0FE}" title="KS/2008-01-15" unit="Kommunstyrelsen" date="2008-01-15">
+            <modifiedSign date="2008-01-29" by="johan bergman"/>
+        </meeting>
+        <meeting id="{FCFC-AB03-075B-FBB1-CD15-A0FE}" title="KS/2008-01-22" unit="Kommunstyrelsen" date="2008-01-22">
+            <description></description>
+            <subjectAreas>
+                <subjectArea name="Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="Ordinarie"/>
+        </meeting>
+        <meeting id="{FCFC-AB03-075B-FBB1-CD15-A0FE}" title="KS/2008-01-22" unit="Kommunstyrelsen" date="2008-01-22">
+            <modifiedSign date="2008-01-29" by="anna-lena amundson"/>
+        </meeting>
+        <meeting id="{FCFC-AFA1-075B-FBB4-CD15-A0FE}" title="KS/2008-01-28" unit="Kommunstyrelsen" date="2008-01-28">
+            <description></description>
+            <subjectAreas>
+                <subjectArea name="Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="Ordinarie"/>
+        </meeting>
+        <meeting id="{FCFC-AFA1-075B-FBB4-CD15-A0FE}" title="KS/2008-01-28" unit="Kommunstyrelsen" date="2008-01-28">
+            <modifiedSign date="2008-01-28" by="christer joelsson"/>
+        </meeting>
+        <meeting id="{FCFC-AF2F-075B-FBB6-CD15-A0FE}" title="KS/2008-01-29" unit="Kommunstyrelsen" date="2008-01-29">
+            <description>sammanträde 2</description>
+            <subjectAreas>
+                <subjectArea name="Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="Ordinarie"/>
+        </meeting>
+        <meeting id="{FCFC-AF2F-075B-FBB6-CD15-A0FE}" title="KS/2008-01-29" unit="Kommunstyrelsen" date="2008-01-29">
+            <modifiedSign date="2008-01-27" by="christer joelsson"/>
+        </meeting>
+        <meeting id="{FCFC-AF68-075B-FBB5-CD15-A0FE}" title="KS/2008-02-08" unit="Kommunstyrelsen" date="2008-02-08">
+            <description></description>
+            <subjectAreas>
+                <subjectArea name="Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="Ordinarie"/>
+        </meeting>
+        <meeting id="{FCFC-AF68-075B-FBB5-CD15-A0FE}" title="KS/2008-02-08" unit="Kommunstyrelsen" date="2008-02-08">
+            <modifiedSign date="2008-01-27" by="christer joelsson"/>
+        </meeting>
+        <meeting id="{FCFC-AB65-075B-FBAF-CD15-A0FE}" title="KS/2008-02-11" unit="Kommunstyrelsen"
+                 date="2008-02-11"></meeting>
+        <meeting id="{FCFC-AB65-075B-FBAF-CD15-A0FE}" title="KS/2008-02-11" unit="Kommunstyrelsen" date="2008-02-11">
+            <description></description>
+            <subjectAreas></subjectAreas>
+            <subjectAreas>
+                <subjectArea name="Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="Ordinarie"/>
+            <modifiedSign date="2008-02-11" by="christer joelsson"></modifiedSign>
+        </meeting>
+        <meeting id="{FCFC-AB96-075B-FBAE-CD15-A0FE}" title="KS/2008-02-19" unit="Kommunstyrelsen" date="2008-02-19">
+            <description></description>
+            <subjectAreas>
+                <subjectArea name="Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="Ordinarie"/>
+        </meeting>
+        <meeting id="{FCFC-AB96-075B-FBAE-CD15-A0FE}" title="KS/2008-02-19" unit="Kommunstyrelsen" date="2008-02-19">
+            <modifiedSign date="2008-02-19" by="johan bergman"/>
+        </meeting>
+        <meeting id="{FCFC-AAAB-075B-FBB3-CD15-A0FE}" title="SBD/2008-01-29" unit="Stadsbyggnadsdivision"
+                 date="2008-01-29">
+            <description></description>
+            <subjectAreas>
+                <subjectArea name="Kommunstyrelsen"/>
+            </subjectAreas>
+            <type name="Ordinarie"/>
+        </meeting>
+        <meeting id="{FCFC-AAAB-075B-FBB3-CD15-A0FE}" title="SBD/2008-01-29" unit="Stadsbyggnadsdivision"
+                 date="2008-01-29">
+            <modifiedSign date="2008-01-29" by="christer joelsson"/>
+        </meeting>
+        <meeting id="{FCFC-AB34-075B-FBB0-CD15-A0FE}" title="SBD/2008-02-06" unit="Stadsbyggnadsdivision"
+                 date="2008-02-06">
+            <description></description>
+            <subjectAreas>
+                <subjectArea name="Kommunstyrelsen"/>
+            </subjectAreas>
+        </meeting>
+        <meeting id="{FCFC-AB34-075B-FBB0-CD15-A0FE}" title="SBD/2008-02-06" unit="Stadsbyggnadsdivision"
+                 date="2008-02-06">
+            <type name="Ordinarie"/>
+            <modifiedSign date="2008-02-06" by="christer joelsson"/>
+        </meeting>
+    </infoSet>
+</lex>

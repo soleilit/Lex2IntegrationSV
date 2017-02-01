@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE taglib
+  PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"
+  "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+<taglib>
+   <!-- The version number of this tag library -->
+   <tlib-version>1.2</tlib-version>
+
+   <!-- The JSP specification version required to function -->
+   <jsp-version>1.2</jsp-version>
+
+   <!-- The short name of this tag library -->
+   <short-name>portlet</short-name>
+   <!-- Public URI that uniquely identifies this version of the tag library -->
+   <uri>http://java.sun.com/portlet</uri>
+   <!-- General information about this tag library -->
+   <description>
+        A tag library for portlets
+   </description>
+
+   <tag>
+      <name>defineObjects</name>
+      <tag-class>senselogic.sitevision.api.portlet.taglib.DefineObjectsTag</tag-class>
+      <body-content>empty</body-content>
+      <description>Used to define standard portlet scripting variables.</description>
+      <variable>
+         <name-given>renderRequest</name-given>
+         <variable-class>javax.portlet.RenderRequest</variable-class>
+         <scope>AT_BEGIN</scope>
+      </variable>
+      <variable>
+         <name-given>renderResponse</name-given>
+         <variable-class>javax.portlet.RenderResponse</variable-class>
+         <scope>AT_BEGIN</scope>
+      </variable>
+      <variable>
+         <name-given>portletConfig</name-given>
+         <variable-class>javax.portlet.PortletConfig</variable-class>
+         <scope>AT_BEGIN</scope>
+      </variable>
+   </tag>
+
+   <tag>
+      <name>namespace</name>
+      <tag-class>senselogic.sitevision.api.portlet.taglib.NamespaceTag</tag-class>
+      <body-content>empty</body-content>
+      <description>Used to output namespace for portlet.</description>
+   </tag>
+
+   <tag>
+      <name>actionURL</name>
+      <tag-class>senselogic.sitevision.api.portlet.taglib.ActionURLTag</tag-class>
+      <tei-class>senselogic.sitevision.api.portlet.taglib.PortletURLTEI</tei-class>
+      <body-content>JSP</body-content>
+      <description>Used to create action URLs.</description>
+      <attribute>
+         <name>windowState</name>
+         <required>false</required>
+         <rtexprvalue>true</rtexprvalue>
+      </attribute>
+      <attribute>
+         <name>portletMode</name>
+         <required>false</required>
+         <rtexprvalue>true</rtexprvalue>
+      </attribute>
+      <attribute>
+         <name>secure</name>
+         <required>false</required>
+         <rtexprvalue>true</rtexprvalue>
+      </attribute>
+      <attribute>
+         <name>var</name>
+         <required>false</required>
+         <rtexprvalue>true</rtexprvalue>
+      </attribute>
+   </tag>
+
+   <tag>
+      <name>renderURL</name>
+      <tag-class>senselogic.sitevision.api.portlet.taglib.RenderURLTag</tag-class>
+      <tei-class>senselogic.sitevision.api.portlet.taglib.PortletURLTEI</tei-class>
+      <body-content>JSP</body-content>
+      <description>Used to create render URLs.</description>
+      <attribute>
+         <name>windowState</name>
+         <required>false</required>
+         <rtexprvalue>true</rtexprvalue>
+      </attribute>
+      <attribute>
+         <name>portletMode</name>
+         <required>false</required>
+         <rtexprvalue>true</rtexprvalue>
+      </attribute>
+      <attribute>
+         <name>secure</name>
+         <required>false</required>
+         <rtexprvalue>true</rtexprvalue>
+      </attribute>
+      <attribute>
+         <name>var</name>
+         <required>false</required>
+         <rtexprvalue>true</rtexprvalue>
+      </attribute>
+   </tag>
+
+   <tag>
+      <name>param</name>
+      <tag-class>senselogic.sitevision.api.portlet.taglib.ParamTag</tag-class>
+      <body-content>empty</body-content>
+      <description>Used to create action URLs.</description>
+      <attribute>
+         <name>name</name>
+         <required>true</required>
+         <rtexprvalue>true</rtexprvalue>
+      </attribute>
+      <attribute>
+         <name>value</name>
+         <required>false</required>
+         <rtexprvalue>true</rtexprvalue>
+      </attribute>
+   </tag>
+
+</taglib>

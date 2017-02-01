@@ -1,0 +1,62 @@
+.lexSecrecyItem {
+    color: #ccc;
+}
+
+ .lexRowItem {
+    float: left;
+    padding: 0 0.2em;
+}
+
+.lexLabel {
+    display: block;
+}
+
+.lexShowDetailsHeader {
+    font-weight: bold;
+    width: 10em;
+}
+
+.lexNoWrap {
+    white-space: nowrap;
+}
+
+.lexSearchLeft {
+    padding-right: 2em !important;
+}
+
+/* Wille */
+.lex-result-table th {
+    padding: 0.8em 0.8em 0.8em 0.2em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.lex-result-table th.sorted a, .lex-result-table th.sortable a {
+    padding-right: 0.8em;
+    background-position: right;
+    background-repeat: no-repeat;
+    font-weight: bold;
+}
+
+.lex-result-table th.sortable a {
+    background-image: url(/lex2search/images/arrow_off.png);
+}
+
+.lex-result-table th.order1 a {
+    background-image: url(/lex2search/images/arrow_up.png);
+}
+
+.lex-result-table th.order2 a {
+    background-image: url(/lex2search/images/arrow_down.png);
+}
+
+.lex-result-table tr {
+    padding: 0.1em;
+}
+
+.lex-result-table td {
+    vertical-align: top;
+    text-align: left;
+    padding: 1em;
+    line-height: 190%;
+}

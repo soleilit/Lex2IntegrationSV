@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:oxm="http://www.springframework.org/schema/oxm"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+        http://www.springframework.org/schema/oxm http://www.springframework.org/schema/oxm/spring-oxm-1.5.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.2.xsd">
+        
+    
+    <bean id="lexService" class="se.solarplexusit.lexportlet.service.impl.GetLexService">
+        <!-- constructor-arg value="http://ls64-korapp.lex.gbg.solarplexusit.se/KorintoTrunk/services/Publish.svc/"/-->
+        <!-- constructor-arg value="http://194.68.82.109/lex2Web/services/Publish.svc/"/-->
+        <constructor-arg ref="unMarshallers"/>
+    </bean>
+
+    <bean id="lexServicexx" class="se.solarplexusit.lexportlet.service.impl.TestLexService">
+        <constructor-arg value="http://ls64-utv.lex.gbg.solarplexusit.se/lexwebu/service/lexexternservice.asmx/"/>
+        <constructor-arg ref="unMarshallers"/>
+    </bean>
+
+    <!-- Lex WebService -->
+    <bean id="messageFactory" class="org.springframework.ws.soap.saaj.SaajSoapMessageFactory">
+        <property name="soapVersion">
+            <util:constant static-field="org.springframework.ws.soap.SoapVersion.SOAP_12"/>
+        </property>
+    </bean>
+    <bean id= "validationEventHandlerImpl" class="se.solarplexusit.lexportlet.validation.LexValidationEventHandler"/>
+    <bean id="unMarshallers" class="se.solarplexusit.lexportlet.service.impl.UnMarshallers">
+        <property name="lexUnMarshaller">
+            <bean class="org.springframework.oxm.jaxb.Jaxb2Marshaller">
+		        <property name="classesToBeBound">
+		            <list>
+		                <value>se.solarplexusit.lexportlet.dataobjects.Lex</value>
+		            </list>
+		        </property>
+		        <property name="validationEventHandler" ref="validationEventHandlerImpl" />
+			</bean>
+        </property>
+        <property name="searchAdviceUnMarshaller">
+            <bean class="org.springframework.oxm.jaxb.Jaxb2Marshaller">
+		        <property name="classesToBeBound">
+		            <list>
+		                <value>se.solarplexusit.lexportlet.dataobjects.Util.SearchAdviceWrapper</value>
+		            </list>
+		        </property>
+		        <property name="validationEventHandler" ref="validationEventHandlerImpl" />
+			</bean>
+        </property>
+        <property name="wsdlMarshaller">
+            <bean class="org.springframework.oxm.jaxb.Jaxb2Marshaller">
+		        <property name="classesToBeBound">
+		            <list>
+		                <value>se.solarplexusit.lexportlet.wsdl.GetSubjectAreas</value>
+		                <value>se.solarplexusit.lexportlet.wsdl.Search</value>
+		                <value>se.solarplexusit.lexportlet.wsdl.GetCase</value>
+		                <value>se.solarplexusit.lexportlet.wsdl.GetDocument</value>
+		                <value>se.solarplexusit.lexportlet.wsdl.GetMeeting</value>
+		                <value>se.solarplexusit.lexportlet.wsdl.GetDecision</value>
+		            </list>
+		        </property>
+		        <property name="validationEventHandler" ref="validationEventHandlerImpl" />
+			</bean>
+        </property>
+        <property name="wsdlUnMarshaller">
+            <bean class="org.springframework.oxm.jaxb.Jaxb2Marshaller">
+		        <property name="classesToBeBound">
+		            <list>
+		                <value>se.solarplexusit.lexportlet.wsdl.GetSubjectAreasResponse</value>
+		                <value>se.solarplexusit.lexportlet.wsdl.SearchResponse</value>
+		                <value>se.solarplexusit.lexportlet.wsdl.GetCaseResponse</value>
+		                <value>se.solarplexusit.lexportlet.wsdl.GetDocumentResponse</value>
+		                <value>se.solarplexusit.lexportlet.wsdl.GetMeetingResponse</value>
+		                <value>se.solarplexusit.lexportlet.wsdl.GetDecisionResponse</value>
+		            </list>
+		        </property>
+		        <property name="validationEventHandler" ref="validationEventHandlerImpl" />
+			</bean>
+        </property>
+    </bean>
+
+
+    <!-- Default View Resolver -->
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="cache" value="false"/>
+        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!-- Messages -->
+    <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basenames">
+            <list>
+                <value>messages</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- Exception handling -->
+    <bean id="defaultExceptionHandler" parent="defaultExceptionHandlerTemplate"/>
+
+    <bean id="defaultExceptionHandlerTemplate"
+          class="org.springframework.web.portlet.handler.SimpleMappingExceptionResolver"
+          abstract="true">
+        <property name="defaultErrorView" value="error"/>
+    </bean>
+
+    <bean id="servletExceptionHandlerTemplate"
+          class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+        <property name="defaultErrorView" value="error"/>
+    </bean>
+
+</beans>

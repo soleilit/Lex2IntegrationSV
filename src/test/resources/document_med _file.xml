@@ -1,0 +1,20 @@
+<lex xmlns="http://lex.wmdata.com/schemas/LeXml.xsd"><information>
+    <document id="{FCFE-BD17-075B-5FA4-CD15-A103}" index="1" orgin="File" date="2007-01-10" author="sa" status="Idle">
+        <description>8.xml</description>
+        <type id="{FCFE-99B2-075B-FEBC-CD15-A0FE}" name="Boendeparkering" colorCode="FFFF"/>
+        <diary id="{FC9A-B9FB-075B-E877-CD15-A0FE}" name="Byggnadsnämnden"/>
+        <owners>
+            <owner id="{FCFD-BCFE-075B-A3AA-CD15-A0FF}" type="Case" name="BN/2007:1"/>
+        </owners>
+        <file format="xml" size="1525" sizeType="B">
+            <data>
+                PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iSVNPLTg4NTktMSIgPz4gCiAgPExFWHN5c3RlbT4KICA8TEVYc3lzdGVtX0FFcmVuZGU+CqAgPExFWHN5c3RlbV9EaWFyaXVtPkJOPC9MRVhzeXN0ZW1fRGlhcml1bT4gCqAgPExFWHN5c3RlbV9BRXJlbmRla2xhc3Nrb2Q+NTI0PC9MRVhzeXN0ZW1fQUVyZW5kZWtsYXNza29kPiAKoCA8TEVYc3lzdGVtX0FFcmVuZGVtZW5pbmc+Qm9lbmRlcGFya2VyaW5nLCBhdXRvbWF0c2thcGFkPC9MRVhzeXN0ZW1fQUVyZW5kZW1lbmluZz4gCiAgPExFWHN5c3RlbV9Eb2t1bWVudD4KoCA8TEVYc3lzdGVtX0Rva3VtZW50UmVnaXN0cmVyYXQ+MjAwNy0wMS0xMDwvTEVYc3lzdGVtX0Rva3VtZW50UmVnaXN0cmVyYXQ+IAqgIDxMRVhzeXN0ZW1fRG9rdW1lbnREYXR1bT4yMDA3LTAxLTEwPC9MRVhzeXN0ZW1fRG9rdW1lbnREYXR1bT4gCqAgPExFWHN5c3RlbV9Eb2t1bWVudEthdGVnb3JpPklua29tbWVuPC9MRVhzeXN0ZW1fRG9rdW1lbnRLYXRlZ29yaT4gCqAgPExFWHN5c3RlbV9Eb2t1bWVudHR5cD5Cb2VuZGVwYXJrZXJpbmc8L0xFWHN5c3RlbV9Eb2t1bWVudHR5cD4gCqAgPExFWHN5c3RlbV9QYXJhbWV0ZXJfQm9wYXJrZXJpbmc+YXNkZmVlPC9MRVhzeXN0ZW1fUGFyYW1ldGVyX0JvcGFya2VyaW5nPiAKICA8TEVYc3lzdGVtX0FkcmVzc2F0PgqgIDxMRVhzeXN0ZW1fQWRyZXNzYXRSb2xsPkFubeRsYXJlPC9MRVhzeXN0ZW1fQWRyZXNzYXRSb2xsPiAKoCA8TEVYc3lzdGVtX0FkcmVzc2F0UGVyc29uPkZ5c2lzayBwZXJzb248L0xFWHN5c3RlbV9BZHJlc3NhdFBlcnNvbj4gCqAgPExFWHN5c3RlbV9BZHJlc3NhdFR5cD5BdnPkbmRhcmU8L0xFWHN5c3RlbV9BZHJlc3NhdFR5cD4KICA8TEVYc3lzdGVtX0FkcmVzc2F0UGVyc29ubnVtbWVyPjE5MTAxMDEwMTAxMDwvTEVYc3lzdGVtX0FkcmVzc2F0UGVyc29ubnVtbWVyPgqgIDxMRVhzeXN0ZW1fQWRyZXNzYXRGb2VybmFtbj5hc2RmIGFzZDwvTEVYc3lzdGVtX0FkcmVzc2F0Rm9lcm5hbW4+IAqgIDxMRVhzeXN0ZW1fQWRyZXNzYXRFZnRlcm5hbW4+ZmFzZGZhc2RmPC9MRVhzeXN0ZW1fQWRyZXNzYXRFZnRlcm5hbW4+IAqgIDxMRVhzeXN0ZW1fQWRyZXNzYXRBZHJlc3M+YXNkZiBhc2RmIGFzZDwvTEVYc3lzdGVtX0FkcmVzc2F0QWRyZXNzPiAKoCA8TEVYc3lzdGVtX0FkcmVzc2F0UG9zdEFkcmVzcz4zMzMzMyBTbeVsYW5kc3N0ZW5hcjwvTEVYc3lzdGVtX0FkcmVzc2F0UG9zdEFkcmVzcz4gCqAgPExFWHN5c3RlbV9BZHJlc3NhdEVwb3N0PjwvTEVYc3lzdGVtX0FkcmVzc2F0RXBvc3Q+IAqgIDxMRVhzeXN0ZW1fQWRyZXNzYXRUZWxlZm9uPjwvTEVYc3lzdGVtX0FkcmVzc2F0VGVsZWZvbj4gCiAgPExFWHN5c3RlbV9BZHJlc3NhdFNpZ25hbFRyYW5zcG9ydD5FLXBvc3QsIEZheDwvTEVYc3lzdGVtX0FkcmVzc2F0U2lnbmFsVHJhbnNwb3J0PgqgIDwvTEVYc3lzdGVtX0FkcmVzc2F0PgqgIDwvTEVYc3lzdGVtX0Rva3VtZW50PgqgIDwvTEVYc3lzdGVtX0FFcmVuZGU+CqAgPC9MRVhzeXN0ZW0+Cg==
+            </data>
+        </file>
+        <createdSign date="2007-01-10" by="sa"/>
+        <modifiedSign date="2007-01-10" by="sa"/>
+    </document>
+    <document id="{FCFE-BD17-075B-5FA4-CD15-A103}" index="1" orgin="File" date="2007-01-10" author="sa" status="Idle">
+        <finalizedSign date="2007-01-10"/>
+    </document>
+</information></lex>

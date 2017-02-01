@@ -1,0 +1,26 @@
+<lex xmlns="http://lex.wmdata.com/schemas/LeXml.xsd">
+    <information>
+        <meeting id="{FCFC-AB34-075B-FBB0-CD15-A0FE}" title="SBD/2008-02-06" status="Active"
+                 unit="Stadsbyggnadsdivision" date="2008-02-06" time="00:00">
+            <type id="{FCFC-8F01-075B-FFFE-CD15-A0FE}" name="Ordinarie"/>
+            <modifiedSign date="2008-02-06" by="christer joelsson"/>
+            <createdSign date="2008-02-06" by="christer joelsson"/>
+            <topics>
+                <topic id="{FCF6-B1DF-075B-DFCF-CD15-A0FE}" number="1">
+                    <sortOrder>1</sortOrder>
+                    <title>Allmän information</title>
+                </topic>
+                <topic id="{FCF6-B213-075B-DFCE-CD15-A0FE}" number="2">
+                    <sortOrder>2</sortOrder>
+                    <title>Val</title>
+                </topic>
+            </topics>
+            <topics>
+                <topic id="{FCF6-B247-075B-DFCD-CD15-A0FE}" number="3">
+                    <sortOrder>3</sortOrder>
+                    <title>zzz</title>
+                </topic>
+            </topics>
+        </meeting>
+    </information>
+</lex>

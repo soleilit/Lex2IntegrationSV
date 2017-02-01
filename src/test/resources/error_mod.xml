@@ -1,0 +1,11 @@
+<lex xmlns="http://lex.wmdata.com/schemas/LeXml.xsd"><information />
+    <error type="Exception" code="104" source="LexExternService::GetDecision">
+        <message>Illegal GID ''.</message>
+    </error>
+    <error type="Exception" code="104" source="LexExternService::GetDecision">
+        <stackTrace>at LexApi.System.LexGid.ParseString(String str) at LexApi.System.LexGid..ctor(String gid) at
+            LexApi.System.LexGid.Parse(String str) at LexExternService.GetDecision(String id, String fetchAmount) in
+            f:\Inetpub\wwwroot\lexweb\App_Code\Service\LexExternService.cs:line 1361
+        </stackTrace>
+    </error>
+</lex>

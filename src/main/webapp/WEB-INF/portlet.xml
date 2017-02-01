@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portlet-app xmlns:sv="http://www.sitevision.se/sitevisionportlet" xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd">
+ 
+    <portlet>
+        <portlet-name>Lex2Search</portlet-name>
+        <portlet-class>org.springframework.web.portlet.DispatcherPortlet</portlet-class>
+        <init-param>
+            <name>contextConfigLocation</name>
+            <value>/WEB-INF/portlet-context.xml</value>
+        </init-param>
+        <supports>
+            <mime-type>text/html</mime-type>
+            <portlet-mode>VIEW</portlet-mode>
+            <portlet-mode>EDIT</portlet-mode>
+        </supports>
+        <supported-locale>SV</supported-locale>
+        <portlet-info>
+            <title>Lex2 Search</title>
+            <short-title>Lex2 Search...</short-title>
+            <keywords>external</keywords>
+        </portlet-info>
+    </portlet>
+    
+     <sv:category>
+      <sv:title>Externa</sv:title>
+      <sv:keywords>external</sv:keywords>
+   </sv:category>
+    
+</portlet-app>
